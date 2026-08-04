@@ -1,0 +1,475 @@
+{
+  "books": {
+    "psychology": [
+      {
+        "name": "01-梦的解析",
+        "file": "books/psychology/01-梦的解析.md",
+        "size": 10252
+      },
+      {
+        "name": "02-自卑与超越",
+        "file": "books/psychology/02-自卑与超越.md",
+        "size": 12590
+      },
+      {
+        "name": "03-心理学与生活",
+        "file": "books/psychology/03-心理学与生活.md",
+        "size": 13183
+      },
+      {
+        "name": "04-乌合之众",
+        "file": "books/psychology/04-乌合之众.md",
+        "size": 9574
+      },
+      {
+        "name": "05-思考，快与慢",
+        "file": "books/psychology/05-思考，快与慢.md",
+        "size": 12340
+      },
+      {
+        "name": "06-影响力",
+        "file": "books/psychology/06-影响力.md",
+        "size": 16263
+      },
+      {
+        "name": "07-心流",
+        "file": "books/psychology/07-心流.md",
+        "size": 12166
+      },
+      {
+        "name": "08-被讨厌的勇气",
+        "file": "books/psychology/08-被讨厌的勇气.md",
+        "size": 14192
+      },
+      {
+        "name": "09-非暴力沟通",
+        "file": "books/psychology/09-非暴力沟通.md",
+        "size": 13991
+      },
+      {
+        "name": "10-亲密关系",
+        "file": "books/psychology/10-亲密关系.md",
+        "size": 16871
+      },
+      {
+        "name": "11-少有人走的路",
+        "file": "books/psychology/11-少有人走的路.md",
+        "size": 20224
+      },
+      {
+        "name": "12-拖延心理学",
+        "file": "books/psychology/12-拖延心理学.md",
+        "size": 9334
+      },
+      {
+        "name": "13-人类简史（心理篇）",
+        "file": "books/psychology/13-人类简史（心理篇）.md",
+        "size": 15982
+      },
+      {
+        "name": "14-情绪的力量",
+        "file": "books/psychology/14-情绪的力量.md",
+        "size": 11938
+      },
+      {
+        "name": "15-存在主义心理治疗",
+        "file": "books/psychology/15-存在主义心理治疗.md",
+        "size": 10588
+      },
+      {
+        "name": "16-认知觉醒",
+        "file": "books/psychology/16-认知觉醒.md",
+        "size": 19917
+      },
+      {
+        "name": "17-自控力",
+        "file": "books/psychology/17-自控力.md",
+        "size": 12915
+      },
+      {
+        "name": "18-刻意练习",
+        "file": "books/psychology/18-刻意练习.md",
+        "size": 13710
+      },
+      {
+        "name": "19-了不起的我",
+        "file": "books/psychology/19-了不起的我.md",
+        "size": 11643
+      },
+      {
+        "name": "20-原则（心理）",
+        "file": "books/psychology/20-原则（心理）.md",
+        "size": 10180
+      },
+      {
+        "name": "21-人生的智慧",
+        "file": "books/psychology/21-人生的智慧.md",
+        "size": 12117
+      },
+      {
+        "name": "22-幸福的方法",
+        "file": "books/psychology/22-幸福的方法.md",
+        "size": 13581
+      },
+      {
+        "name": "23-活出生命的意义",
+        "file": "books/psychology/23-活出生命的意义.md",
+        "size": 11979
+      },
+      {
+        "name": "24-蛤蟆先生去看心理医生",
+        "file": "books/psychology/24-蛤蟆先生去看心理医生.md",
+        "size": 18114
+      },
+      {
+        "name": "25-为何家会伤人",
+        "file": "books/psychology/25-为何家会伤人.md",
+        "size": 10256
+      },
+      {
+        "name": "26-为何我们总是防御",
+        "file": "books/psychology/26-为何我们总是防御.md",
+        "size": 11103
+      },
+      {
+        "name": "27-心灵的七种美德",
+        "file": "books/psychology/27-心灵的七种美德.md",
+        "size": 11217
+      },
+      {
+        "name": "28-心理学导论",
+        "file": "books/psychology/28-心理学导论.md",
+        "size": 10829
+      },
+      {
+        "name": "29-爱的艺术",
+        "file": "books/psychology/29-爱的艺术.md",
+        "size": 10198
+      },
+      {
+        "name": "30-社会性动物",
+        "file": "books/psychology/30-社会性动物.md",
+        "size": 11208
+      }
+    ],
+    "economics": [
+      {
+        "name": "01-国富论",
+        "file": "books/economics/01-国富论.md",
+        "size": 11686
+      },
+      {
+        "name": "02-资本论",
+        "file": "books/economics/02-资本论.md",
+        "size": 12859
+      },
+      {
+        "name": "03-经济学原理",
+        "file": "books/economics/03-经济学原理.md",
+        "size": 19788
+      },
+      {
+        "name": "04-博弈论",
+        "file": "books/economics/04-博弈论.md",
+        "size": 10772
+      },
+      {
+        "name": "05-通往奴役之路",
+        "file": "books/economics/05-通往奴役之路.md",
+        "size": 3676
+      },
+      {
+        "name": "06-自由秩序",
+        "file": "books/economics/06-自由秩序.md",
+        "size": 12102
+      },
+      {
+        "name": "07-就业、利息和货币通论",
+        "file": "books/economics/07-就业、利息和货币通论.md",
+        "size": 10099
+      },
+      {
+        "name": "08-资本主义与自由",
+        "file": "books/economics/08-资本主义与自由.md",
+        "size": 11860
+      },
+      {
+        "name": "09-贫穷的经济学",
+        "file": "books/economics/09-贫穷的经济学.md",
+        "size": 12060
+      },
+      {
+        "name": "10-卧底经济学",
+        "file": "books/economics/10-卧底经济学.md",
+        "size": 10841
+      },
+      {
+        "name": "11-魔鬼经济学",
+        "file": "books/economics/11-魔鬼经济学.md",
+        "size": 16475
+      },
+      {
+        "name": "12-稀缺",
+        "file": "books/economics/12-稀缺.md",
+        "size": 10891
+      },
+      {
+        "name": "13-助推",
+        "file": "books/economics/13-助推.md",
+        "size": 18694
+      },
+      {
+        "name": "14-大国大城",
+        "file": "books/economics/14-大国大城.md",
+        "size": 19971
+      },
+      {
+        "name": "15-变量",
+        "file": "books/economics/15-变量.md",
+        "size": 12305
+      },
+      {
+        "name": "16-解读中国经济",
+        "file": "books/economics/16-解读中国经济.md",
+        "size": 15223
+      },
+      {
+        "name": "17-结构性改革",
+        "file": "books/economics/17-结构性改革.md",
+        "size": 16156
+      },
+      {
+        "name": "18-置身事内",
+        "file": "books/economics/18-置身事内.md",
+        "size": 11373
+      },
+      {
+        "name": "19-八次危机",
+        "file": "books/economics/19-八次危机.md",
+        "size": 13471
+      },
+      {
+        "name": "20-新结构经济学",
+        "file": "books/economics/20-新结构经济学.md",
+        "size": 13888
+      },
+      {
+        "name": "21-货币战争",
+        "file": "books/economics/21-货币战争.md",
+        "size": 11847
+      },
+      {
+        "name": "22-伟大的博弈",
+        "file": "books/economics/22-伟大的博弈.md",
+        "size": 17123
+      },
+      {
+        "name": "23-逃不开的经济周期",
+        "file": "books/economics/23-逃不开的经济周期.md",
+        "size": 11193
+      },
+      {
+        "name": "24-浪潮之巅",
+        "file": "books/economics/24-浪潮之巅.md",
+        "size": 13022
+      },
+      {
+        "name": "25-创新者的窘境",
+        "file": "books/economics/25-创新者的窘境.md",
+        "size": 12432
+      },
+      {
+        "name": "26-长尾理论",
+        "file": "books/economics/26-长尾理论.md",
+        "size": 4003
+      },
+      {
+        "name": "27-蓝海战略",
+        "file": "books/economics/27-蓝海战略.md",
+        "size": 11659
+      },
+      {
+        "name": "28-原则",
+        "file": "books/economics/28-原则.md",
+        "size": 17251
+      },
+      {
+        "name": "29-非对称风险",
+        "file": "books/economics/29-非对称风险.md",
+        "size": 12592
+      },
+      {
+        "name": "30-随机漫步的傻瓜",
+        "file": "books/economics/30-随机漫步的傻瓜.md",
+        "size": 12743
+      }
+    ],
+    "philosophy": [
+      {
+        "name": "01-苏菲的世界",
+        "file": "books/philosophy/01-苏菲的世界.md",
+        "size": 12262
+      },
+      {
+        "name": "02-西方哲学史",
+        "file": "books/philosophy/02-西方哲学史.md",
+        "size": 11600
+      },
+      {
+        "name": "03-中国哲学史",
+        "file": "books/philosophy/03-中国哲学史.md",
+        "size": 11393
+      },
+      {
+        "name": "04-纯粹理性批判",
+        "file": "books/philosophy/04-纯粹理性批判.md",
+        "size": 12265
+      },
+      {
+        "name": "05-查拉图斯特拉如是说",
+        "file": "books/philosophy/05-查拉图斯特拉如是说.md",
+        "size": 9998
+      },
+      {
+        "name": "06-存在与时间",
+        "file": "books/philosophy/06-存在与时间.md",
+        "size": 12863
+      },
+      {
+        "name": "07-柏拉图对话集",
+        "file": "books/philosophy/07-柏拉图对话集.md",
+        "size": 12723
+      },
+      {
+        "name": "08-理想国",
+        "file": "books/philosophy/08-理想国.md",
+        "size": 11323
+      },
+      {
+        "name": "09-沉思录",
+        "file": "books/philosophy/09-沉思录.md",
+        "size": 16003
+      },
+      {
+        "name": "10-道德经",
+        "file": "books/philosophy/10-道德经.md",
+        "size": 10099
+      },
+      {
+        "name": "11-论语",
+        "file": "books/philosophy/11-论语.md",
+        "size": 9617
+      },
+      {
+        "name": "12-庄子",
+        "file": "books/philosophy/12-庄子.md",
+        "size": 9221
+      },
+      {
+        "name": "13-金刚经",
+        "file": "books/philosophy/13-金刚经.md",
+        "size": 9739
+      },
+      {
+        "name": "14-六祖坛经",
+        "file": "books/philosophy/14-六祖坛经.md",
+        "size": 11753
+      },
+      {
+        "name": "15-传习录",
+        "file": "books/philosophy/15-传习录.md",
+        "size": 10902
+      },
+      {
+        "name": "16-第一哲学沉思集",
+        "file": "books/philosophy/16-第一哲学沉思集.md",
+        "size": 12543
+      },
+      {
+        "name": "17-谈谈方法",
+        "file": "books/philosophy/17-谈谈方法.md",
+        "size": 10914
+      },
+      {
+        "name": "18-人性论",
+        "file": "books/philosophy/18-人性论.md",
+        "size": 18471
+      },
+      {
+        "name": "19-社会契约论",
+        "file": "books/philosophy/19-社会契约论.md",
+        "size": 13883
+      },
+      {
+        "name": "20-利维坦",
+        "file": "books/philosophy/20-利维坦.md",
+        "size": 11613
+      },
+      {
+        "name": "21-论自由",
+        "file": "books/philosophy/21-论自由.md",
+        "size": 13563
+      },
+      {
+        "name": "22-正义论",
+        "file": "books/philosophy/22-正义论.md",
+        "size": 12501
+      },
+      {
+        "name": "23-无政府、国家和乌托邦",
+        "file": "books/philosophy/23-无政府、国家和乌托邦.md",
+        "size": 18402
+      },
+      {
+        "name": "24-科学革命的结构",
+        "file": "books/philosophy/24-科学革命的结构.md",
+        "size": 13294
+      },
+      {
+        "name": "25-哥德尔、艾舍尔、巴赫",
+        "file": "books/philosophy/25-哥德尔、艾舍尔、巴赫.md",
+        "size": 16923
+      },
+      {
+        "name": "26-第二性",
+        "file": "books/philosophy/26-第二性.md",
+        "size": 14566
+      },
+      {
+        "name": "27-存在与虚无",
+        "file": "books/philosophy/27-存在与虚无.md",
+        "size": 12115
+      },
+      {
+        "name": "28-尼采文集",
+        "file": "books/philosophy/28-尼采文集.md",
+        "size": 16921
+      },
+      {
+        "name": "29-人生的智慧",
+        "file": "books/philosophy/29-人生的智慧.md",
+        "size": 11109
+      },
+      {
+        "name": "30-作为意志和表象的世界",
+        "file": "books/philosophy/30-作为意志和表象的世界.md",
+        "size": 12986
+      }
+    ]
+  },
+  "poems": {
+    "primary": [],
+    "middle": [],
+    "high": []
+  },
+  "characters": [],
+  "books_summary": [],
+  "quiz": [],
+  "stats": {
+    "total_books": 90,
+    "total_poems": 0,
+    "total_characters": 0,
+    "total_books_summary": 0,
+    "total_quiz": 0
+  }
+}

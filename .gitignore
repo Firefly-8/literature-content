@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+token_usage.json
+generate.py
+.DS_Store
