@@ -458,18 +458,1445 @@
     ]
   },
   "poems": {
-    "primary": [],
-    "middle": [],
-    "high": []
+    "primary": [
+      {
+        "name": "001-静夜思",
+        "file": "poems/primary/001-静夜思.md",
+        "size": 2150
+      },
+      {
+        "name": "002-春晓",
+        "file": "poems/primary/002-春晓.md",
+        "size": 1848
+      },
+      {
+        "name": "003-咏鹅",
+        "file": "poems/primary/003-咏鹅.md",
+        "size": 2570
+      },
+      {
+        "name": "004-悯农（其一）",
+        "file": "poems/primary/004-悯农（其一）.md",
+        "size": 2330
+      },
+      {
+        "name": "005-悯农（其二）",
+        "file": "poems/primary/005-悯农（其二）.md",
+        "size": 2319
+      },
+      {
+        "name": "006-游子吟",
+        "file": "poems/primary/006-游子吟.md",
+        "size": 4125
+      },
+      {
+        "name": "007-江雪",
+        "file": "poems/primary/007-江雪.md",
+        "size": 3280
+      },
+      {
+        "name": "008-寻隐者不遇",
+        "file": "poems/primary/008-寻隐者不遇.md",
+        "size": 2593
+      },
+      {
+        "name": "009-登鹳雀楼",
+        "file": "poems/primary/009-登鹳雀楼.md",
+        "size": 2877
+      },
+      {
+        "name": "010-相思",
+        "file": "poems/primary/010-相思.md",
+        "size": 2263
+      },
+      {
+        "name": "011-鹿柴",
+        "file": "poems/primary/011-鹿柴.md",
+        "size": 2403
+      },
+      {
+        "name": "012-鸟鸣涧",
+        "file": "poems/primary/012-鸟鸣涧.md",
+        "size": 2663
+      },
+      {
+        "name": "013-九月九日忆山东兄弟",
+        "file": "poems/primary/013-九月九日忆山东兄弟.md",
+        "size": 2800
+      },
+      {
+        "name": "014-望庐山瀑布",
+        "file": "poems/primary/014-望庐山瀑布.md",
+        "size": 2480
+      },
+      {
+        "name": "015-黄鹤楼送孟浩然之广陵",
+        "file": "poems/primary/015-黄鹤楼送孟浩然之广陵.md",
+        "size": 2327
+      },
+      {
+        "name": "016-早发白帝城",
+        "file": "poems/primary/016-早发白帝城.md",
+        "size": 2124
+      },
+      {
+        "name": "017-望天门山",
+        "file": "poems/primary/017-望天门山.md",
+        "size": 3201
+      },
+      {
+        "name": "018-绝句（两个黄鹂）",
+        "file": "poems/primary/018-绝句（两个黄鹂）.md",
+        "size": 3321
+      },
+      {
+        "name": "019-春夜喜雨",
+        "file": "poems/primary/019-春夜喜雨.md",
+        "size": 2529
+      },
+      {
+        "name": "020-绝句（迟日江山丽）",
+        "file": "poems/primary/020-绝句（迟日江山丽）.md",
+        "size": 2991
+      },
+      {
+        "name": "021-枫桥夜泊",
+        "file": "poems/primary/021-枫桥夜泊.md",
+        "size": 3038
+      },
+      {
+        "name": "022-滁州西涧",
+        "file": "poems/primary/022-滁州西涧.md",
+        "size": 1640
+      },
+      {
+        "name": "023-望洞庭",
+        "file": "poems/primary/023-望洞庭.md",
+        "size": 1456
+      },
+      {
+        "name": "023-渔歌子",
+        "file": "poems/primary/023-渔歌子.md",
+        "size": 1956
+      },
+      {
+        "name": "024-望洞庭",
+        "file": "poems/primary/024-望洞庭.md",
+        "size": 3141
+      },
+      {
+        "name": "024-浪淘沙",
+        "file": "poems/primary/024-浪淘沙.md",
+        "size": 3491
+      },
+      {
+        "name": "025-江南春",
+        "file": "poems/primary/025-江南春.md",
+        "size": 1728
+      },
+      {
+        "name": "025-浪淘沙",
+        "file": "poems/primary/025-浪淘沙.md",
+        "size": 2497
+      },
+      {
+        "name": "026-山行",
+        "file": "poems/primary/026-山行.md",
+        "size": 3972
+      },
+      {
+        "name": "027-清明",
+        "file": "poems/primary/027-清明.md",
+        "size": 3019
+      },
+      {
+        "name": "028-赠汪伦",
+        "file": "poems/primary/028-赠汪伦.md",
+        "size": 3802
+      },
+      {
+        "name": "029-凉州词（王之涣）",
+        "file": "poems/primary/029-凉州词（王之涣）.md",
+        "size": 2289
+      },
+      {
+        "name": "030-凉州词（王翰）",
+        "file": "poems/primary/030-凉州词（王翰）.md",
+        "size": 3286
+      },
+      {
+        "name": "031-出塞",
+        "file": "poems/primary/031-出塞.md",
+        "size": 2668
+      },
+      {
+        "name": "032-别董大",
+        "file": "poems/primary/032-别董大.md",
+        "size": 2572
+      },
+      {
+        "name": "033-蜂",
+        "file": "poems/primary/033-蜂.md",
+        "size": 1480
+      },
+      {
+        "name": "034-江上渔者",
+        "file": "poems/primary/034-江上渔者.md",
+        "size": 1844
+      },
+      {
+        "name": "035-元日",
+        "file": "poems/primary/035-元日.md",
+        "size": 2881
+      },
+      {
+        "name": "036-泊船瓜洲",
+        "file": "poems/primary/036-泊船瓜洲.md",
+        "size": 1716
+      },
+      {
+        "name": "037-书湖阴先生壁",
+        "file": "poems/primary/037-书湖阴先生壁.md",
+        "size": 2829
+      },
+      {
+        "name": "038-饮湖上初晴后雨",
+        "file": "poems/primary/038-饮湖上初晴后雨.md",
+        "size": 2587
+      },
+      {
+        "name": "039-惠崇春江晚景",
+        "file": "poems/primary/039-惠崇春江晚景.md",
+        "size": 2961
+      },
+      {
+        "name": "040-题西林壁",
+        "file": "poems/primary/040-题西林壁.md",
+        "size": 2583
+      },
+      {
+        "name": "041-示儿",
+        "file": "poems/primary/041-示儿.md",
+        "size": 2733
+      },
+      {
+        "name": "042-秋夜将晓出篱门迎凉有感",
+        "file": "poems/primary/042-秋夜将晓出篱门迎凉有感.md",
+        "size": 2638
+      },
+      {
+        "name": "043-四时田园杂兴（昼出耘田）",
+        "file": "poems/primary/043-四时田园杂兴（昼出耘田）.md",
+        "size": 3572
+      },
+      {
+        "name": "044-四时田园杂兴（梅子金黄）",
+        "file": "poems/primary/044-四时田园杂兴（梅子金黄）.md",
+        "size": 2174
+      },
+      {
+        "name": "045-小池",
+        "file": "poems/primary/045-小池.md",
+        "size": 3788
+      },
+      {
+        "name": "046-晓出净慈寺送林子方",
+        "file": "poems/primary/046-晓出净慈寺送林子方.md",
+        "size": 2295
+      },
+      {
+        "name": "047-春日",
+        "file": "poems/primary/047-春日.md",
+        "size": 2178
+      },
+      {
+        "name": "048-乡村四月",
+        "file": "poems/primary/048-乡村四月.md",
+        "size": 1927
+      },
+      {
+        "name": "049-村居",
+        "file": "poems/primary/049-村居.md",
+        "size": 2142
+      },
+      {
+        "name": "050-所见",
+        "file": "poems/primary/050-所见.md",
+        "size": 2410
+      },
+      {
+        "name": "051-竹石",
+        "file": "poems/primary/051-竹石.md",
+        "size": 2514
+      },
+      {
+        "name": "052-己亥杂诗",
+        "file": "poems/primary/052-己亥杂诗.md",
+        "size": 2590
+      },
+      {
+        "name": "053-石灰吟",
+        "file": "poems/primary/053-石灰吟.md",
+        "size": 2593
+      },
+      {
+        "name": "054-回乡偶书",
+        "file": "poems/primary/054-回乡偶书.md",
+        "size": 2410
+      },
+      {
+        "name": "055-咏柳",
+        "file": "poems/primary/055-咏柳.md",
+        "size": 2716
+      },
+      {
+        "name": "056-长歌行",
+        "file": "poems/primary/056-长歌行.md",
+        "size": 2474
+      },
+      {
+        "name": "057-敕勒歌",
+        "file": "poems/primary/057-敕勒歌.md",
+        "size": 171
+      },
+      {
+        "name": "058-风",
+        "file": "poems/primary/058-风.md",
+        "size": 2429
+      },
+      {
+        "name": "059-江南",
+        "file": "poems/primary/059-江南.md",
+        "size": 2393
+      },
+      {
+        "name": "060-古朗月行",
+        "file": "poems/primary/060-古朗月行.md",
+        "size": 3876
+      },
+      {
+        "name": "061-明日歌",
+        "file": "poems/primary/061-明日歌.md",
+        "size": 2662
+      },
+      {
+        "name": "062-苔",
+        "file": "poems/primary/062-苔.md",
+        "size": 2508
+      },
+      {
+        "name": "063-画",
+        "file": "poems/primary/063-画.md",
+        "size": 2889
+      },
+      {
+        "name": "064-梅花",
+        "file": "poems/primary/064-梅花.md",
+        "size": 2035
+      },
+      {
+        "name": "065-夜书所见",
+        "file": "poems/primary/065-夜书所见.md",
+        "size": 2577
+      },
+      {
+        "name": "066-乞巧",
+        "file": "poems/primary/066-乞巧.md",
+        "size": 2221
+      },
+      {
+        "name": "067-嫦娥",
+        "file": "poems/primary/067-嫦娥.md",
+        "size": 3647
+      },
+      {
+        "name": "068-题临安邸",
+        "file": "poems/primary/068-题临安邸.md",
+        "size": 1871
+      },
+      {
+        "name": "069-秋夕",
+        "file": "poems/primary/069-秋夕.md",
+        "size": 2747
+      },
+      {
+        "name": "070-嫦娥",
+        "file": "poems/primary/070-嫦娥.md",
+        "size": 663
+      },
+      {
+        "name": "071-山中送别",
+        "file": "poems/primary/071-山中送别.md",
+        "size": 2419
+      }
+    ],
+    "middle": [
+      {
+        "name": "001-观沧海",
+        "file": "poems/middle/001-观沧海.md",
+        "size": 2480
+      },
+      {
+        "name": "002-次北固山下",
+        "file": "poems/middle/002-次北固山下.md",
+        "size": 2746
+      },
+      {
+        "name": "003-闻王昌龄左迁龙标遥有此寄",
+        "file": "poems/middle/003-闻王昌龄左迁龙标遥有此寄.md",
+        "size": 2196
+      },
+      {
+        "name": "004-夜雨寄北",
+        "file": "poems/middle/004-夜雨寄北.md",
+        "size": 2276
+      },
+      {
+        "name": "005-木兰诗",
+        "file": "poems/middle/005-木兰诗.md",
+        "size": 366
+      },
+      {
+        "name": "006-登幽州台歌",
+        "file": "poems/middle/006-登幽州台歌.md",
+        "size": 2357
+      },
+      {
+        "name": "007-望岳",
+        "file": "poems/middle/007-望岳.md",
+        "size": 3408
+      },
+      {
+        "name": "008-春望",
+        "file": "poems/middle/008-春望.md",
+        "size": 1644
+      },
+      {
+        "name": "009-茅屋为秋风所破歌",
+        "file": "poems/middle/009-茅屋为秋风所破歌.md",
+        "size": 3976
+      },
+      {
+        "name": "010-白雪歌送武判官归京",
+        "file": "poems/middle/010-白雪歌送武判官归京.md",
+        "size": 3466
+      },
+      {
+        "name": "011-酬乐天扬州初逢席上见赠",
+        "file": "poems/middle/011-酬乐天扬州初逢席上见赠.md",
+        "size": 553
+      },
+      {
+        "name": "012-卖炭翁",
+        "file": "poems/middle/012-卖炭翁.md",
+        "size": 4522
+      },
+      {
+        "name": "013-钱塘湖春行",
+        "file": "poems/middle/013-钱塘湖春行.md",
+        "size": 3942
+      },
+      {
+        "name": "014-雁门太守行",
+        "file": "poems/middle/014-雁门太守行.md",
+        "size": 3002
+      },
+      {
+        "name": "015-赤壁",
+        "file": "poems/middle/015-赤壁.md",
+        "size": 2491
+      },
+      {
+        "name": "016-泊秦淮",
+        "file": "poems/middle/016-泊秦淮.md",
+        "size": 2528
+      },
+      {
+        "name": "017-无题（相见时难）",
+        "file": "poems/middle/017-无题（相见时难）.md",
+        "size": 2883
+      },
+      {
+        "name": "018-相见欢",
+        "file": "poems/middle/018-相见欢.md",
+        "size": 3264
+      },
+      {
+        "name": "019-渔家傲·秋思",
+        "file": "poems/middle/019-渔家傲·秋思.md",
+        "size": 2832
+      },
+      {
+        "name": "020-浣溪沙",
+        "file": "poems/middle/020-浣溪沙.md",
+        "size": 2700
+      },
+      {
+        "name": "021-江城子·密州出猎",
+        "file": "poems/middle/021-江城子·密州出猎.md",
+        "size": 4085
+      },
+      {
+        "name": "022-水调歌头",
+        "file": "poems/middle/022-水调歌头.md",
+        "size": 2652
+      },
+      {
+        "name": "023-破阵子",
+        "file": "poems/middle/023-破阵子.md",
+        "size": 2587
+      },
+      {
+        "name": "024-过零丁洋",
+        "file": "poems/middle/024-过零丁洋.md",
+        "size": 3353
+      },
+      {
+        "name": "025-山坡羊·潼关怀古",
+        "file": "poems/middle/025-山坡羊·潼关怀古.md",
+        "size": 2421
+      },
+      {
+        "name": "026-满江红",
+        "file": "poems/middle/026-满江红.md",
+        "size": 2886
+      },
+      {
+        "name": "027-南乡子·登京口北固亭有怀",
+        "file": "poems/middle/027-南乡子·登京口北固亭有怀.md",
+        "size": 2964
+      },
+      {
+        "name": "028-十五从军征",
+        "file": "poems/middle/028-十五从军征.md",
+        "size": 1458
+      },
+      {
+        "name": "029-行军九日思长安故园",
+        "file": "poems/middle/029-行军九日思长安故园.md",
+        "size": 3459
+      },
+      {
+        "name": "030-夜上受降城闻笛",
+        "file": "poems/middle/030-夜上受降城闻笛.md",
+        "size": 2291
+      },
+      {
+        "name": "031-江南逢李龟年",
+        "file": "poems/middle/031-江南逢李龟年.md",
+        "size": 1326
+      },
+      {
+        "name": "032-逢入京使",
+        "file": "poems/middle/032-逢入京使.md",
+        "size": 3304
+      },
+      {
+        "name": "033-晚春",
+        "file": "poems/middle/033-晚春.md",
+        "size": 2491
+      },
+      {
+        "name": "034-竹里馆",
+        "file": "poems/middle/034-竹里馆.md",
+        "size": 3787
+      },
+      {
+        "name": "035-峨眉山月歌",
+        "file": "poems/middle/035-峨眉山月歌.md",
+        "size": 2876
+      },
+      {
+        "name": "036-十一月四日风雨大作",
+        "file": "poems/middle/036-十一月四日风雨大作.md",
+        "size": 2526
+      },
+      {
+        "name": "037-过松源晨炊漆公店",
+        "file": "poems/middle/037-过松源晨炊漆公店.md",
+        "size": 2577
+      },
+      {
+        "name": "038-约客",
+        "file": "poems/middle/038-约客.md",
+        "size": 564
+      },
+      {
+        "name": "039-游山西村",
+        "file": "poems/middle/039-游山西村.md",
+        "size": 2728
+      },
+      {
+        "name": "040-野望",
+        "file": "poems/middle/040-野望.md",
+        "size": 2943
+      },
+      {
+        "name": "041-黄鹤楼",
+        "file": "poems/middle/041-黄鹤楼.md",
+        "size": 2256
+      },
+      {
+        "name": "042-使至塞上",
+        "file": "poems/middle/042-使至塞上.md",
+        "size": 4899
+      },
+      {
+        "name": "043-渡荆门送别",
+        "file": "poems/middle/043-渡荆门送别.md",
+        "size": 3754
+      },
+      {
+        "name": "044-饮酒",
+        "file": "poems/middle/044-饮酒.md",
+        "size": 3267
+      },
+      {
+        "name": "045-渔家傲",
+        "file": "poems/middle/045-渔家傲.md",
+        "size": 3377
+      },
+      {
+        "name": "046-蒹葭",
+        "file": "poems/middle/046-蒹葭.md",
+        "size": 4022
+      },
+      {
+        "name": "047-子衿",
+        "file": "poems/middle/047-子衿.md",
+        "size": 3077
+      },
+      {
+        "name": "048-送杜少府之任蜀州",
+        "file": "poems/middle/048-送杜少府之任蜀州.md",
+        "size": 3258
+      },
+      {
+        "name": "049-望洞庭湖赠张丞相",
+        "file": "poems/middle/049-望洞庭湖赠张丞相.md",
+        "size": 3061
+      },
+      {
+        "name": "050-北冥有鱼",
+        "file": "poems/middle/050-北冥有鱼.md",
+        "size": 3887
+      },
+      {
+        "name": "051-虽有嘉肴",
+        "file": "poems/middle/051-虽有嘉肴.md",
+        "size": 1808
+      },
+      {
+        "name": "052-大道之行也",
+        "file": "poems/middle/052-大道之行也.md",
+        "size": 4590
+      },
+      {
+        "name": "053-石壕吏",
+        "file": "poems/middle/053-石壕吏.md",
+        "size": 3698
+      },
+      {
+        "name": "054-题破山寺后禅院",
+        "file": "poems/middle/054-题破山寺后禅院.md",
+        "size": 2856
+      },
+      {
+        "name": "055-送友人",
+        "file": "poems/middle/055-送友人.md",
+        "size": 113
+      },
+      {
+        "name": "056-卜算子·黄州定慧院寓居作",
+        "file": "poems/middle/056-卜算子·黄州定慧院寓居作.md",
+        "size": 2613
+      },
+      {
+        "name": "057-卜算子·咏梅",
+        "file": "poems/middle/057-卜算子·咏梅.md",
+        "size": 2447
+      },
+      {
+        "name": "058-行路难",
+        "file": "poems/middle/058-行路难.md",
+        "size": 3003
+      },
+      {
+        "name": "059-鱼我所欲也",
+        "file": "poems/middle/059-鱼我所欲也.md",
+        "size": 4458
+      },
+      {
+        "name": "060-唐雎不辱使命",
+        "file": "poems/middle/060-唐雎不辱使命.md",
+        "size": 4919
+      },
+      {
+        "name": "061-邹忌讽齐王纳谏",
+        "file": "poems/middle/061-邹忌讽齐王纳谏.md",
+        "size": 6712
+      },
+      {
+        "name": "062-陈涉世家",
+        "file": "poems/middle/062-陈涉世家.md",
+        "size": 5640
+      },
+      {
+        "name": "063-生于忧患死于安乐",
+        "file": "poems/middle/063-生于忧患死于安乐.md",
+        "size": 3348
+      },
+      {
+        "name": "064-愚公移山",
+        "file": "poems/middle/064-愚公移山.md",
+        "size": 876
+      },
+      {
+        "name": "065-周亚夫军细柳",
+        "file": "poems/middle/065-周亚夫军细柳.md",
+        "size": 4796
+      },
+      {
+        "name": "066-核舟记",
+        "file": "poems/middle/066-核舟记.md",
+        "size": 6506
+      },
+      {
+        "name": "067-桃花源记",
+        "file": "poems/middle/067-桃花源记.md",
+        "size": 5669
+      },
+      {
+        "name": "068-小石潭记",
+        "file": "poems/middle/068-小石潭记.md",
+        "size": 5637
+      },
+      {
+        "name": "069-醉翁亭记",
+        "file": "poems/middle/069-醉翁亭记.md",
+        "size": 6491
+      },
+      {
+        "name": "070-岳阳楼记",
+        "file": "poems/middle/070-岳阳楼记.md",
+        "size": 2605
+      },
+      {
+        "name": "071-爱莲说",
+        "file": "poems/middle/071-爱莲说.md",
+        "size": 4132
+      },
+      {
+        "name": "072-记承天寺夜游",
+        "file": "poems/middle/072-记承天寺夜游.md",
+        "size": 3361
+      },
+      {
+        "name": "073-三峡",
+        "file": "poems/middle/073-三峡.md",
+        "size": 4631
+      },
+      {
+        "name": "074-答谢中书书",
+        "file": "poems/middle/074-答谢中书书.md",
+        "size": 3691
+      },
+      {
+        "name": "075-与朱元思书",
+        "file": "poems/middle/075-与朱元思书.md",
+        "size": 4135
+      },
+      {
+        "name": "076-送东阳马生序",
+        "file": "poems/middle/076-送东阳马生序.md",
+        "size": 5607
+      },
+      {
+        "name": "077-曹刿论战",
+        "file": "poems/middle/077-曹刿论战.md",
+        "size": 5546
+      }
+    ],
+    "high": [
+      {
+        "name": "001-离骚（节选）",
+        "file": "poems/high/001-离骚（节选）.md",
+        "size": 4982
+      },
+      {
+        "name": "002-蜀道难",
+        "file": "poems/high/002-蜀道难.md",
+        "size": 6061
+      },
+      {
+        "name": "003-琵琶行",
+        "file": "poems/high/003-琵琶行.md",
+        "size": 615
+      },
+      {
+        "name": "004-锦瑟",
+        "file": "poems/high/004-锦瑟.md",
+        "size": 4439
+      },
+      {
+        "name": "005-虞美人",
+        "file": "poems/high/005-虞美人.md",
+        "size": 3434
+      },
+      {
+        "name": "006-念奴娇·赤壁怀古",
+        "file": "poems/high/006-念奴娇·赤壁怀古.md",
+        "size": 3473
+      },
+      {
+        "name": "007-永遇乐·京口北固亭怀古",
+        "file": "poems/high/007-永遇乐·京口北固亭怀古.md",
+        "size": 5305
+      },
+      {
+        "name": "008-声声慢",
+        "file": "poems/high/008-声声慢.md",
+        "size": 3077
+      },
+      {
+        "name": "009-醉花阴",
+        "file": "poems/high/009-醉花阴.md",
+        "size": 2826
+      },
+      {
+        "name": "010-水龙吟·登建康赏心亭",
+        "file": "poems/high/010-水龙吟·登建康赏心亭.md",
+        "size": 3325
+      },
+      {
+        "name": "011-摸鱼儿",
+        "file": "poems/high/011-摸鱼儿.md",
+        "size": 2844
+      },
+      {
+        "name": "012-六国论",
+        "file": "poems/high/012-六国论.md",
+        "size": 5502
+      },
+      {
+        "name": "013-阿房宫赋",
+        "file": "poems/high/013-阿房宫赋.md",
+        "size": 5659
+      },
+      {
+        "name": "014-滕王阁序",
+        "file": "poems/high/014-滕王阁序.md",
+        "size": 6080
+      },
+      {
+        "name": "015-师说",
+        "file": "poems/high/015-师说.md",
+        "size": 7333
+      },
+      {
+        "name": "016-劝学",
+        "file": "poems/high/016-劝学.md",
+        "size": 5985
+      },
+      {
+        "name": "017-逍遥游（节选）",
+        "file": "poems/high/017-逍遥游（节选）.md",
+        "size": 6018
+      },
+      {
+        "name": "018-陈情表",
+        "file": "poems/high/018-陈情表.md",
+        "size": 4473
+      },
+      {
+        "name": "019-归去来兮辞",
+        "file": "poems/high/019-归去来兮辞.md",
+        "size": 6777
+      },
+      {
+        "name": "020-兰亭集序",
+        "file": "poems/high/020-兰亭集序.md",
+        "size": 3993
+      },
+      {
+        "name": "021-春江花月夜",
+        "file": "poems/high/021-春江花月夜.md",
+        "size": 535
+      },
+      {
+        "name": "022-将进酒",
+        "file": "poems/high/022-将进酒.md",
+        "size": 382
+      },
+      {
+        "name": "023-梦游天姥吟留别",
+        "file": "poems/high/023-梦游天姥吟留别.md",
+        "size": 5279
+      },
+      {
+        "name": "024-蜀相",
+        "file": "poems/high/024-蜀相.md",
+        "size": 4172
+      },
+      {
+        "name": "025-登高",
+        "file": "poems/high/025-登高.md",
+        "size": 3271
+      },
+      {
+        "name": "026-登岳阳楼",
+        "file": "poems/high/026-登岳阳楼.md",
+        "size": 2496
+      },
+      {
+        "name": "027-雨霖铃",
+        "file": "poems/high/027-雨霖铃.md",
+        "size": 4644
+      },
+      {
+        "name": "028-桂枝香·金陵怀古",
+        "file": "poems/high/028-桂枝香·金陵怀古.md",
+        "size": 4736
+      },
+      {
+        "name": "029-江城子·乙卯正月二十日夜记梦",
+        "file": "poems/high/029-江城子·乙卯正月二十日夜记梦.md",
+        "size": 3579
+      },
+      {
+        "name": "030-念奴娇·过临江",
+        "file": "poems/high/030-念奴娇·过临江.md",
+        "size": 3042
+      },
+      {
+        "name": "031-定风波",
+        "file": "poems/high/031-定风波.md",
+        "size": 2226
+      },
+      {
+        "name": "032-临江仙·夜登小阁忆洛中旧游",
+        "file": "poems/high/032-临江仙·夜登小阁忆洛中旧游.md",
+        "size": 3727
+      },
+      {
+        "name": "033-青玉案·元夕",
+        "file": "poems/high/033-青玉案·元夕.md",
+        "size": 3420
+      },
+      {
+        "name": "034-沁园春·长沙",
+        "file": "poems/high/034-沁园春·长沙.md",
+        "size": 4017
+      },
+      {
+        "name": "035-雨巷",
+        "file": "poems/high/035-雨巷.md",
+        "size": 4619
+      },
+      {
+        "name": "036-白马篇",
+        "file": "poems/high/036-白马篇.md",
+        "size": 4469
+      },
+      {
+        "name": "037-咏怀",
+        "file": "poems/high/037-咏怀.md",
+        "size": 2526
+      },
+      {
+        "name": "038-咏史",
+        "file": "poems/high/038-咏史.md",
+        "size": 4021
+      },
+      {
+        "name": "039-归园田居",
+        "file": "poems/high/039-归园田居.md",
+        "size": 3813
+      },
+      {
+        "name": "040-拟行路难",
+        "file": "poems/high/040-拟行路难.md",
+        "size": 3159
+      },
+      {
+        "name": "041-夜泊牛渚怀中",
+        "file": "poems/high/041-夜泊牛渚怀中.md",
+        "size": 1411
+      },
+      {
+        "name": "042-春江花月夜",
+        "file": "poems/high/042-春江花月夜.md",
+        "size": 4298
+      },
+      {
+        "name": "043-山居秋暝",
+        "file": "poems/high/043-山居秋暝.md",
+        "size": 2902
+      },
+      {
+        "name": "044-燕歌行",
+        "file": "poems/high/044-燕歌行.md",
+        "size": 5480
+      },
+      {
+        "name": "045-走马川行奉送出师西征",
+        "file": "poems/high/045-走马川行奉送出师西征.md",
+        "size": 3381
+      },
+      {
+        "name": "046-蜀道难",
+        "file": "poems/high/046-蜀道难.md",
+        "size": 6102
+      },
+      {
+        "name": "047-长恨歌",
+        "file": "poems/high/047-长恨歌.md",
+        "size": 5798
+      },
+      {
+        "name": "048-卖炭翁",
+        "file": "poems/high/048-卖炭翁.md",
+        "size": 3997
+      },
+      {
+        "name": "049-观刈麦",
+        "file": "poems/high/049-观刈麦.md",
+        "size": 4562
+      },
+      {
+        "name": "050-雁门太守行",
+        "file": "poems/high/050-雁门太守行.md",
+        "size": 2634
+      },
+      {
+        "name": "051-赤壁",
+        "file": "poems/high/051-赤壁.md",
+        "size": 1969
+      },
+      {
+        "name": "052-泊秦淮",
+        "file": "poems/high/052-泊秦淮.md",
+        "size": 2615
+      },
+      {
+        "name": "053-夜雨寄北",
+        "file": "poems/high/053-夜雨寄北.md",
+        "size": 2206
+      },
+      {
+        "name": "054-无题",
+        "file": "poems/high/054-无题.md",
+        "size": 2914
+      },
+      {
+        "name": "055-虞美人",
+        "file": "poems/high/055-虞美人.md",
+        "size": 2681
+      },
+      {
+        "name": "056-桂枝香",
+        "file": "poems/high/056-桂枝香.md",
+        "size": 3079
+      },
+      {
+        "name": "057-念奴娇·赤壁怀古",
+        "file": "poems/high/057-念奴娇·赤壁怀古.md",
+        "size": 2852
+      },
+      {
+        "name": "058-声声慢",
+        "file": "poems/high/058-声声慢.md",
+        "size": 3295
+      }
+    ]
   },
-  "characters": [],
-  "books_summary": [],
-  "quiz": [],
+  "characters": {
+    "hongloumeng": {
+      "file": "characters/hongloumeng.md",
+      "count": 33,
+      "size": 59772
+    },
+    "xiyouji": {
+      "file": "characters/xiyouji.md",
+      "count": 46,
+      "size": 57651
+    },
+    "sanguoyanyi": {
+      "file": "characters/sanguoyanyi.md",
+      "count": 38,
+      "size": 67846
+    },
+    "shuihuzhuan": {
+      "file": "characters/shuihuzhuan.md",
+      "count": 37,
+      "size": 63021
+    }
+  },
+  "books_summary": [
+    {
+      "name": "01-傲慢与偏见",
+      "file": "books-summary/01-傲慢与偏见.md",
+      "size": 3464
+    },
+    {
+      "name": "02-简·爱",
+      "file": "books-summary/02-简·爱.md",
+      "size": 3443
+    },
+    {
+      "name": "03-呼啸山庄",
+      "file": "books-summary/03-呼啸山庄.md",
+      "size": 6822
+    },
+    {
+      "name": "04-双城记",
+      "file": "books-summary/04-双城记.md",
+      "size": 5195
+    },
+    {
+      "name": "05-雾都孤儿",
+      "file": "books-summary/05-雾都孤儿.md",
+      "size": 4169
+    },
+    {
+      "name": "06-大卫·科波菲尔",
+      "file": "books-summary/06-大卫·科波菲尔.md",
+      "size": 2969
+    },
+    {
+      "name": "07-远大前程",
+      "file": "books-summary/07-远大前程.md",
+      "size": 5388
+    },
+    {
+      "name": "08-红字",
+      "file": "books-summary/08-红字.md",
+      "size": 6362
+    },
+    {
+      "name": "09-白鲸",
+      "file": "books-summary/09-白鲸.md",
+      "size": 4242
+    },
+    {
+      "name": "10-老人与海",
+      "file": "books-summary/10-老人与海.md",
+      "size": 2515
+    },
+    {
+      "name": "11-了不起的盖茨比",
+      "file": "books-summary/11-了不起的盖茨比.md",
+      "size": 86
+    },
+    {
+      "name": "12-麦田里的守望者",
+      "file": "books-summary/12-麦田里的守望者.md",
+      "size": 4882
+    },
+    {
+      "name": "13-杀死一只知更鸟",
+      "file": "books-summary/13-杀死一只知更鸟.md",
+      "size": 2122
+    },
+    {
+      "name": "14-1984",
+      "file": "books-summary/14-1984.md",
+      "size": 4854
+    },
+    {
+      "name": "15-美丽新世界",
+      "file": "books-summary/15-美丽新世界.md",
+      "size": 5473
+    },
+    {
+      "name": "16-我们",
+      "file": "books-summary/16-我们.md",
+      "size": 3400
+    },
+    {
+      "name": "17-百年孤独",
+      "file": "books-summary/17-百年孤独.md",
+      "size": 2651
+    },
+    {
+      "name": "18-霍乱时期的爱情",
+      "file": "books-summary/18-霍乱时期的爱情.md",
+      "size": 3972
+    },
+    {
+      "name": "19-尤利西斯",
+      "file": "books-summary/19-尤利西斯.md",
+      "size": 2579
+    },
+    {
+      "name": "20-变形记",
+      "file": "books-summary/20-变形记.md",
+      "size": 5718
+    },
+    {
+      "name": "21-局外人",
+      "file": "books-summary/21-局外人.md",
+      "size": 4644
+    },
+    {
+      "name": "22-西西弗神话",
+      "file": "books-summary/22-西西弗神话.md",
+      "size": 4290
+    },
+    {
+      "name": "23-鼠疫",
+      "file": "books-summary/23-鼠疫.md",
+      "size": 4327
+    },
+    {
+      "name": "24-悲惨世界",
+      "file": "books-summary/24-悲惨世界.md",
+      "size": 3713
+    },
+    {
+      "name": "25-巴黎圣母院",
+      "file": "books-summary/25-巴黎圣母院.md",
+      "size": 6246
+    },
+    {
+      "name": "26-红与黑",
+      "file": "books-summary/26-红与黑.md",
+      "size": 803
+    },
+    {
+      "name": "27-高老头",
+      "file": "books-summary/27-高老头.md",
+      "size": 2066
+    },
+    {
+      "name": "28-欧也妮·葛朗台",
+      "file": "books-summary/28-欧也妮·葛朗台.md",
+      "size": 4283
+    },
+    {
+      "name": "29-包法利夫人",
+      "file": "books-summary/29-包法利夫人.md",
+      "size": 3985
+    },
+    {
+      "name": "30-安娜·卡列尼娜",
+      "file": "books-summary/30-安娜·卡列尼娜.md",
+      "size": 5275
+    },
+    {
+      "name": "31-战争与和平",
+      "file": "books-summary/31-战争与和平.md",
+      "size": 3411
+    },
+    {
+      "name": "32-复活",
+      "file": "books-summary/32-复活.md",
+      "size": 3888
+    },
+    {
+      "name": "33-罪与罚",
+      "file": "books-summary/33-罪与罚.md",
+      "size": 3137
+    },
+    {
+      "name": "34-卡拉马佐夫兄弟",
+      "file": "books-summary/34-卡拉马佐夫兄弟.md",
+      "size": 4809
+    },
+    {
+      "name": "35-堂吉诃德",
+      "file": "books-summary/35-堂吉诃德.md",
+      "size": 5589
+    },
+    {
+      "name": "36-哈姆雷特",
+      "file": "books-summary/36-哈姆雷特.md",
+      "size": 5077
+    },
+    {
+      "name": "37-罗密欧与朱丽叶",
+      "file": "books-summary/37-罗密欧与朱丽叶.md",
+      "size": 4397
+    },
+    {
+      "name": "38-李尔王",
+      "file": "books-summary/38-李尔王.md",
+      "size": 6298
+    },
+    {
+      "name": "39-麦克白",
+      "file": "books-summary/39-麦克白.md",
+      "size": 6593
+    },
+    {
+      "name": "40-呐喊",
+      "file": "books-summary/40-呐喊.md",
+      "size": 3831
+    },
+    {
+      "name": "41-彷徨",
+      "file": "books-summary/41-彷徨.md",
+      "size": 4293
+    },
+    {
+      "name": "42-围城",
+      "file": "books-summary/42-围城.md",
+      "size": 3272
+    },
+    {
+      "name": "43-边城",
+      "file": "books-summary/43-边城.md",
+      "size": 4848
+    },
+    {
+      "name": "44-骆驼祥子",
+      "file": "books-summary/44-骆驼祥子.md",
+      "size": 5768
+    },
+    {
+      "name": "45-家",
+      "file": "books-summary/45-家.md",
+      "size": 760
+    },
+    {
+      "name": "46-春",
+      "file": "books-summary/46-春.md",
+      "size": 4304
+    },
+    {
+      "name": "47-秋",
+      "file": "books-summary/47-秋.md",
+      "size": 4989
+    },
+    {
+      "name": "48-雷雨",
+      "file": "books-summary/48-雷雨.md",
+      "size": 2962
+    },
+    {
+      "name": "49-日出",
+      "file": "books-summary/49-日出.md",
+      "size": 3653
+    },
+    {
+      "name": "50-北京人",
+      "file": "books-summary/50-北京人.md",
+      "size": 1434
+    },
+    {
+      "name": "51-茶馆",
+      "file": "books-summary/51-茶馆.md",
+      "size": 1421
+    },
+    {
+      "name": "52-活着",
+      "file": "books-summary/52-活着.md",
+      "size": 4056
+    },
+    {
+      "name": "53-平凡的世界",
+      "file": "books-summary/53-平凡的世界.md",
+      "size": 8320
+    },
+    {
+      "name": "54-白鹿原",
+      "file": "books-summary/54-白鹿原.md",
+      "size": 3127
+    },
+    {
+      "name": "55-红高粱",
+      "file": "books-summary/55-红高粱.md",
+      "size": 6247
+    },
+    {
+      "name": "56-蛙",
+      "file": "books-summary/56-蛙.md",
+      "size": 2780
+    },
+    {
+      "name": "57-生死疲劳",
+      "file": "books-summary/57-生死疲劳.md",
+      "size": 6319
+    },
+    {
+      "name": "58-尘埃落定",
+      "file": "books-summary/58-尘埃落定.md",
+      "size": 4941
+    },
+    {
+      "name": "59-源氏物语",
+      "file": "books-summary/59-源氏物语.md",
+      "size": 3600
+    },
+    {
+      "name": "60-罗生门",
+      "file": "books-summary/60-罗生门.md",
+      "size": 3672
+    },
+    {
+      "name": "61-雪国",
+      "file": "books-summary/61-雪国.md",
+      "size": 5298
+    },
+    {
+      "name": "62-挪威的森林",
+      "file": "books-summary/62-挪威的森林.md",
+      "size": 7037
+    },
+    {
+      "name": "63-人间失格",
+      "file": "books-summary/63-人间失格.md",
+      "size": 4960
+    },
+    {
+      "name": "64-我是猫",
+      "file": "books-summary/64-我是猫.md",
+      "size": 2757
+    },
+    {
+      "name": "65-春琴抄",
+      "file": "books-summary/65-春琴抄.md",
+      "size": 3785
+    },
+    {
+      "name": "66-古都",
+      "file": "books-summary/66-古都.md",
+      "size": 4443
+    },
+    {
+      "name": "67-千只鹤",
+      "file": "books-summary/67-千只鹤.md",
+      "size": 4045
+    },
+    {
+      "name": "68-伊豆的舞女",
+      "file": "books-summary/68-伊豆的舞女.md",
+      "size": 2577
+    }
+  ],
+  "quiz": {
+    "primary": {
+      "file": "quiz/quiz-primary.json",
+      "count": 70,
+      "size": 23579
+    },
+    "middle": {
+      "file": "quiz/quiz-middle.json",
+      "count": 20,
+      "size": 7986
+    },
+    "high": {
+      "file": "quiz/quiz-high.json",
+      "count": 40,
+      "size": 15743
+    }
+  },
   "stats": {
     "total_books": 90,
-    "total_poems": 0,
-    "total_characters": 0,
-    "total_books_summary": 0,
-    "total_quiz": 0
+    "total_poems": 209,
+    "total_characters": 154,
+    "total_books_summary": 68,
+    "total_quiz": 130,
+    "total_files": 376
   }
 }
