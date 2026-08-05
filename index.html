@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文学作品赏析</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+:root {
+  --bg: #f7f3ea;
+  --bg-card: #fffdf7;
+  --text: #2c2c2c;
+  --text-muted: #7a7068;
+  --accent: #b53a2f;
+  --accent-soft: #e8d5cf;
+  --border: #e0d8cc;
+  --shadow: 0 2px 8px rgba(60,40,20,0.06);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 1.25rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow);
+}
+.header-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+.logo span { color: var(--text-muted); font-weight: 400; font-size: 0.85rem; margin-left: 0.4rem; }
+.search-box {
+  flex: 1;
+  min-width: 160px;
+  position: relative;
+}
+.search-box input {
+  width: 100%;
+  padding: 0.5rem 0.75rem 0.5rem 2rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  background: var(--bg);
+  color: var(--text);
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+.search-box input:focus { outline: none; border-color: var(--accent); background: #fff; }
+.search-box::before {
+  content: "🔍";
+  position: absolute;
+  left: 0.6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+.btn-back {
+  display: none;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn-back:hover { background: var(--bg); color: var(--accent); }
+.btn-back.show { display: inline-block; }
+
+/* Nav Tabs */
+.nav {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.nav::-webkit-scrollbar { display: none; }
+.nav-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  white-space: nowrap;
+}
+.nav-tab {
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  user-select: none;
+}
+.nav-tab:hover { color: var(--text); }
+.nav-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+
+/* Sub-nav */
+.sub-nav {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.sub-nav::-webkit-scrollbar { display: none; }
+.sub-nav-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  padding: 0 0.25rem;
+}
+.sub-nav.hidden { display: none; }
+.sub-tab {
+  padding: 0.5rem 0.85rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.sub-tab:hover { color: var(--text); }
+.sub-tab.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 500; }
+
+/* Main */
+.main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.25rem 1.25rem 3rem;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+.stat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+.stat-num {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1.2;
+}
+.stat-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.25rem;
+}
+
+/* Section title */
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.section-title::before {
+  content: "";
+  width: 3px;
+  height: 1.1rem;
+  background: var(--accent);
+  border-radius: 2px;
+}
+
+/* Card list */
+.list-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.list-item {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.list-item:last-child { border-bottom: none; }
+.list-item:hover { background: rgba(181,58,47,0.04); }
+.list-item-info { flex: 1; min-width: 0; }
+.list-item-title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.list-item-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+.list-item-badge {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.list-item-arrow {
+  color: var(--border);
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+
+/* Detail view */
+.detail-view { display: none; }
+.detail-view.show { display: block; }
+.detail-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: var(--text);
+}
+.detail-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+.detail-content {
+  font-size: 0.95rem;
+  line-height: 1.85;
+}
+.detail-content h1 { font-size: 1.3rem; margin: 1.5rem 0 0.75rem; color: var(--text); }
+.detail-content h2 { font-size: 1.15rem; margin: 1.25rem 0 0.5rem; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
+.detail-content h3 { font-size: 1.05rem; margin: 1rem 0 0.4rem; color: var(--text); }
+.detail-content p { margin-bottom: 0.75rem; }
+.detail-content ul, .detail-content ol { padding-left: 1.5rem; margin-bottom: 0.75rem; }
+.detail-content li { margin-bottom: 0.3rem; }
+.detail-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 1rem;
+  margin: 0.75rem 0;
+  background: rgba(181,58,47,0.04);
+  color: var(--text-muted);
+}
+.detail-content code {
+  background: var(--bg);
+  padding: 0.15rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+.detail-content pre {
+  background: #2d2a26;
+  color: #e8e0d8;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin-bottom: 0.75rem;
+}
+.detail-content pre code { background: none; padding: 0; color: inherit; }
+.detail-content strong { color: var(--text); }
+.detail-content hr { border: none; border-top: 1px solid var(--border); margin: 1.25rem 0; }
+.detail-content em { color: var(--text-muted); font-style: italic; }
+
+/* Quiz */
+.quiz-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+}
+.quiz-q {
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+.quiz-options { list-style: none; padding: 0; }
+.quiz-options li {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  margin-bottom: 0.4rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.15s;
+}
+.quiz-options li:hover { background: var(--bg); }
+.quiz-options li.selected { border-color: var(--accent); background: rgba(181,58,47,0.06); }
+.quiz-options li.correct { border-color: #2d8659; background: rgba(45,134,89,0.08); }
+.quiz-options li.wrong { border-color: var(--accent); background: rgba(181,58,47,0.08); }
+.quiz-explain {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.75rem;
+  background: var(--bg);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.quiz-explain.show { display: block; }
+
+/* Loading & Empty */
+.loading { text-align: center; padding: 2rem; color: var(--text-muted); }
+.empty { text-align: center; padding: 2rem; color: var(--text-muted); font-size: 0.9rem; }
+.spinner {
+  display: inline-block;
+  width: 24px; height: 24px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin-bottom: 0.5rem;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  margin-top: 2rem;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .stats-grid { grid-template-columns: repeat(4, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">文学作品赏析 <span>Study Helper</span></div>
+    <button class="btn-back" id="btnBack" onclick="goBack()">← 返回</button>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="搜索标题 / 作者..." oninput="handleSearch()">
+    </div>
+  </div>
+</header>
+
+<nav class="nav">
+  <div class="nav-inner" id="navTabs"></div>
+</nav>
+
+<div class="sub-nav hidden" id="subNav">
+  <div class="sub-nav-inner" id="subNavInner"></div>
+</div>
+
+<main class="main" id="main"></main>
+
+<footer class="footer">内容由 AI 生成，仅供学习参考</footer>
+
+<script>
+const DATA_URL = 'index.json';
+const CONTENT_BASE = 'content/';
+
+let indexData = null;
+let currentCategory = 'home';
+let currentSub = null;
+let viewStack = [];
+let searchKeyword = '';
+
+const CATEGORIES = [
+  { key: 'home', label: '首页' },
+  { key: 'poems', label: '必背古诗', hasSub: true },
+  { key: 'characters', label: '四大人物', hasSub: true },
+  { key: 'books_summary', label: '名著导读', list: true },
+  { key: 'books', label: '三大书单', hasSub: true },
+  { key: 'modern', label: '现当代', list: true },
+  { key: 'shorts', label: '外国短篇', list: true },
+  { key: 'quiz', label: '题库', hasSub: true },
+];
+
+const POEM_SUB = [
+  { key: 'primary', label: '小学 74 首' },
+  { key: 'middle', label: '初中 77 首' },
+  { key: 'high', label: '高中 95 首' },
+];
+
+const CHAR_SUB = [
+  { key: 'hongloumeng', label: '红楼梦' },
+  { key: 'xiyouji', label: '西游记' },
+  { key: 'sanguoyanyi', label: '三国演义' },
+  { key: 'shuihuzhuan', label: '水浒传' },
+];
+
+const BOOK_SUB = [
+  { key: 'psychology', label: '心理学 30 本' },
+  { key: 'economics', label: '经济学 30 本' },
+  { key: 'philosophy', label: '哲学 30 本' },
+];
+
+const QUIZ_SUB = [
+  { key: 'primary', label: '小学 70 题' },
+  { key: 'middle', label: '初中 20 题' },
+  { key: 'high', label: '高中 40 题' },
+];
+
+function getSubCats(cat) {
+  if (cat === 'poems') return POEM_SUB;
+  if (cat === 'characters') return CHAR_SUB;
+  if (cat === 'books') return BOOK_SUB;
+  if (cat === 'quiz') return QUIZ_SUB;
+  return null;
+}
+
+async function init() {
+  renderNav();
+  try {
+    const res = await fetch(DATA_URL);
+    indexData = await res.json();
+  } catch (e) {
+    document.getElementById('main').innerHTML = '<div class="empty">加载数据失败，请检查网络</div>';
+    return;
+  }
+  navigate('home', null, true);
+}
+
+function renderNav() {
+  const nav = document.getElementById('navTabs');
+  nav.innerHTML = CATEGORIES.map(c =>
+    `<div class="nav-tab ${c.key === currentCategory ? 'active' : ''}" onclick="navigate('${c.key}', null, true)">${c.label}</div>`
+  ).join('');
+}
+
+function renderSubNav(cat) {
+  const subNav = document.getElementById('subNav');
+  const inner = document.getElementById('subNavInner');
+  const subs = getSubCats(cat);
+  if (!subs) { subNav.classList.add('hidden'); return; }
+  subNav.classList.remove('hidden');
+  inner.innerHTML = subs.map(s =>
+    `<div class="sub-tab ${s.key === currentSub ? 'active' : ''}" onclick="switchSub('${s.key}')">${s.label}</div>`
+  ).join('');
+}
+
+function switchSub(sub) {
+  currentSub = sub;
+  renderSubNav(currentCategory);
+  renderList(currentCategory, sub);
+}
+
+function navigate(cat, sub, replace) {
+  currentCategory = cat;
+  currentSub = sub;
+  searchKeyword = '';
+  document.getElementById('searchInput').value = '';
+  if (replace) { viewStack = []; }
+  else { viewStack.push({ cat, sub }); }
+  updateBackBtn();
+  renderNav();
+  renderSubNav(cat);
+  const main = document.getElementById('main');
+  main.innerHTML = '';
+  if (cat === 'home') {
+    renderHome();
+  } else if (sub) {
+    renderList(cat, sub);
+  } else if (!getSubCats(cat)) {
+    renderList(cat, null);
+  }
+}
+
+function updateBackBtn() {
+  document.getElementById('btnBack').classList.toggle('show', viewStack.length > 0);
+}
+
+function goBack() {
+  const prev = viewStack.pop();
+  if (prev) {
+    currentCategory = prev.cat;
+    currentSub = prev.sub;
+    searchKeyword = '';
+    document.getElementById('searchInput').value = '';
+    updateBackBtn();
+    renderNav();
+    renderSubNav(currentCategory);
+    const main = document.getElementById('main');
+    main.innerHTML = '';
+    if (prev.cat === 'home') renderHome();
+    else renderList(prev.cat, prev.sub);
+  } else {
+    navigate('home', null, true);
+  }
+}
+
+function handleSearch() {
+  searchKeyword = document.getElementById('searchInput').value.trim().toLowerCase();
+  if (currentCategory === 'home') return;
+  renderList(currentCategory, currentSub);
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function renderHome() {
+  const s = indexData.stats;
+  const main = document.getElementById('main');
+  main.innerHTML = `
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-num">${s.total_poems}</div><div class="stat-label">必背古诗</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_characters}</div><div class="stat-label">四大人物</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_books}</div><div class="stat-label">三大书单</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_books_summary}</div><div class="stat-label">名著导读</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_modern}</div><div class="stat-label">现当代文学</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_shorts}</div><div class="stat-label">外国短篇</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_quiz}</div><div class="stat-label">题库</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_files}</div><div class="stat-label">总文件数</div></div>
+    </div>
+    <div class="section-title">分类导航</div>
+    <div class="list-card">
+      ${CATEGORIES.filter(c => c.key !== 'home').map(c => {
+        const count = getCatCount(c.key);
+        return `<div class="list-item" onclick="navigate('${c.key}', ${getSubCats(c.key) ? "'" + getSubCats(c.key)[0].key + "'" : 'null'})">
+          <div class="list-item-info">
+            <div class="list-item-title">${c.label}</div>
+            <div class="list-item-meta">${count} 项</div>
+          </div>
+          <span class="list-item-arrow">›</span>
+        </div>`;
+      }).join('')}
+    </div>
+  `;
+}
+
+function getCatCount(cat) {
+  const s = indexData.stats;
+  if (cat === 'poems') return s.total_poems;
+  if (cat === 'characters') return s.total_characters;
+  if (cat === 'books') return s.total_books;
+  if (cat === 'books_summary') return s.total_books_summary;
+  if (cat === 'modern') return s.total_modern;
+  if (cat === 'shorts') return s.total_shorts;
+  if (cat === 'quiz') return s.total_quiz;
+  return 0;
+}
+
+function renderList(cat, sub) {
+  const main = document.getElementById('main');
+  if (cat === 'quiz') { renderQuizList(sub); return; }
+
+  let items = [];
+  if (cat === 'poems') items = indexData.poems[sub] || [];
+  else if (cat === 'characters') {
+    const ch = indexData.characters[sub];
+    if (ch) items = [{ name: ch.label || sub, file: ch.file, isCharacter: true, count: ch.count }];
+  }
+  else if (cat === 'books_summary') items = indexData.books_summary;
+  else if (cat === 'books') items = indexData.books[sub] || [];
+  else if (cat === 'modern') items = indexData.modern;
+  else if (cat === 'shorts') items = indexData.shorts;
+
+  if (!items.length) {
+    main.innerHTML = '<div class="empty">暂无内容</div>';
+    return;
+  }
+
+  const filtered = filterItems(items);
+
+  if (!filtered.length) {
+    main.innerHTML = '<div class="empty">没有匹配的结果</div>';
+    return;
+  }
+
+  const titleMap = {
+    poems: '必背古诗', characters: '四大名著人物', books_summary: '名著导读',
+    books: '三大书单', modern: '现当代文学', shorts: '外国短篇'
+  };
+
+  main.innerHTML = `<div class="section-title">${titleMap[cat] || cat} · ${filtered.length} 项</div>
+    <div class="list-card">${filtered.map(item => renderListItem(item, cat)).join('')}</div>`;
+}
+
+function filterItems(items) {
+  if (!searchKeyword) return items;
+  return items.filter(item => {
+    const title = (item.title || item.name || '').toLowerCase();
+    const author = (item.author || '').toLowerCase();
+    return title.includes(searchKeyword) || author.includes(searchKeyword);
+  });
+}
+
+function renderListItem(item, cat) {
+  const title = item.title || item.name || '';
+  const author = item.author || '';
+  const difficulty = item.difficulty || '';
+  let meta = '';
+  if (author) meta += author;
+  if (item.era) meta += (meta ? ' · ' : '') + item.era;
+  if (item.category) meta += (meta ? ' · ' : '') + item.category;
+  if (item.count) meta += (meta ? ' · ' : '') + item.count + ' 位人物';
+  if (item.theme) meta = item.theme;
+
+  return `<div class="list-item" onclick="openDetail('${item.file}', '${cat}')">
+    <div class="list-item-info">
+      <div class="list-item-title">${escapeHtml(title)}</div>
+      ${meta ? `<div class="list-item-meta">${escapeHtml(meta)}</div>` : ''}
+    </div>
+    ${difficulty ? `<span class="list-item-badge">${escapeHtml(difficulty)}</span>` : ''}
+    <span class="list-item-arrow">›</span>
+  </div>`;
+}
+
+async function openDetail(file, cat) {
+  const main = document.getElementById('main');
+  viewStack.push({ cat: currentCategory, sub: currentSub, detail: true });
+  updateBackBtn();
+  main.innerHTML = `<div class="loading"><div class="spinner"></div><div>加载中...</div></div>`;
+
+  try {
+    const res = await fetch(CONTENT_BASE + file);
+    if (!res.ok) throw new Error('404');
+    const text = await res.text();
+    const html = marked.parse(text);
+    const title = extractTitle(text, file);
+    main.innerHTML = `<div class="detail-view show">
+      <div class="detail-title">${escapeHtml(title)}</div>
+      <div class="detail-content">${html}</div>
+    </div>`;
+    window.scrollTo(0, 0);
+  } catch (e) {
+    main.innerHTML = '<div class="empty">内容加载失败</div>';
+  }
+}
+
+function extractTitle(text, file) {
+  const m = text.match(/^#\s+(.+)$/m);
+  if (m) return m[1].replace(/[《》]/g, '').trim();
+  return file.split('/').pop().replace('.md', '');
+}
+
+function renderQuizList(sub) {
+  const main = document.getElementById('main');
+  const quizData = indexData.quiz[sub];
+  if (!quizData) { main.innerHTML = '<div class="empty">暂无题目</div>'; return; }
+
+  main.innerHTML = `<div class="loading"><div class="spinner"></div><div>加载题库...</div></div>`;
+
+  fetch(CONTENT_BASE + quizData.file)
+    .then(r => r.json())
+    .then(questions => {
+      if (searchKeyword) {
+        questions = questions.filter(q => q.question.toLowerCase().includes(searchKeyword));
+      }
+      if (!questions.length) {
+        main.innerHTML = '<div class="empty">没有匹配的题目</div>';
+        return;
+      }
+      main.innerHTML = `<div class="section-title">题库 · ${questions.length} 题</div>` +
+        questions.map((q, i) => renderQuizCard(q, i)).join('');
+      window.scrollTo(0, 0);
+    })
+    .catch(() => { main.innerHTML = '<div class="empty">题目加载失败</div>'; });
+}
+
+function renderQuizCard(q, idx) {
+  const opts = (q.options || []).map((opt, oi) =>
+    `<li onclick="revealQuiz(this, '${q.answer}', ${oi})">${escapeHtml(opt)}</li>`
+  ).join('');
+  return `<div class="quiz-card">
+    <div class="quiz-q">${idx + 1}. ${escapeHtml(q.question)}</div>
+    <ul class="quiz-options">${opts}</ul>
+    <div class="quiz-explain" id="explain-${idx}"><strong>答案：${escapeHtml(q.answer)}</strong><br>${escapeHtml(q.explanation || '')}</div>
+  </div>`;
+}
+
+function revealQuiz(li, answer, oi) {
+  const card = li.closest('.quiz-card');
+  const options = card.querySelectorAll('.quiz-options li');
+  const explain = card.querySelector('.quiz-explain');
+  options.forEach((el, i) => {
+    el.style.pointerEvents = 'none';
+    const letter = String.fromCharCode(65 + i);
+    if (letter === answer) el.classList.add('correct');
+    else if (el === li) el.classList.add('wrong');
+  });
+  if (li.textContent.trim().startsWith(answer)) li.classList.add('correct');
+  explain.classList.add('show');
+}
+
+init();
+</script>
+</body>
+</html>
