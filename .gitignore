@@ -4,3 +4,9 @@ __pycache__/
 token_usage.json
 generate.py
 .DS_Store
+
+# Claude Code artifacts (不入库)
+.claude_prompt_*.md
+.cc_logs/
+push_final*.py
+verify_final.py
