@@ -221,6 +221,54 @@ a:hover { text-decoration: underline; }
   border-radius: 8px;
   overflow: hidden;
 }
+.list-card.grid-mode {
+  background: transparent;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+}
+.list-card.grid-mode .list-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.list-card.grid-mode .list-item-arrow { display: none; }
+.list-card.grid-mode .list-item-badge {
+  align-self: flex-start;
+  margin-top: 0.2rem;
+}
+@media (min-width: 768px) {
+  .list-card.grid-mode { grid-template-columns: repeat(3, 1fr); gap: 0.75rem; }
+}
+.view-toggle {
+  display: inline-flex;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+.view-toggle button {
+  background: transparent;
+  border: none;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--text-muted);
+  font-size: inherit;
+  font-family: inherit;
+}
+.view-toggle button.active {
+  background: var(--accent);
+  color: #fff;
+}
 .list-item {
   padding: 0.85rem 1rem;
   border-bottom: 1px solid var(--border);
@@ -313,6 +361,68 @@ a:hover { text-decoration: underline; }
 .detail-content strong { color: var(--text); }
 .detail-content hr { border: none; border-top: 1px solid var(--border); margin: 1.25rem 0; }
 .detail-content em { color: var(--text-muted); font-style: italic; }
+
+/* 古诗词诗体排版 */
+.detail-content.poem-card .detail-title {
+  text-align: center;
+  font-size: 1.7rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3rem;
+}
+.detail-content.poem-card .detail-meta {
+  text-align: center;
+  font-style: italic;
+  color: var(--text-muted);
+  border-bottom: 1px dashed var(--border);
+}
+.poem-original {
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2.4;
+  letter-spacing: 0.15em;
+  margin: 1.5rem 0;
+  padding: 1rem 0.5rem;
+  font-family: "STKaiti", "KaiTi", "楷体", serif;
+  color: var(--text);
+}
+.poem-original p {
+  margin: 0.3rem 0;
+}
+.online-link {
+  display: inline-block;
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.4rem 0.9rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+.online-link:hover { background: #952d23; text-decoration: none; color: #fff; }
+.online-link.disabled {
+  background: var(--border);
+  color: var(--text-muted);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* 年级分组 */
+.grade-group { margin-bottom: 1.25rem; }
+.grade-group-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid var(--accent);
+}
+.grade-group-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-left: 0.4rem;
+}
 
 /* Quiz */
 .quiz-card {
@@ -625,7 +735,48 @@ function renderList(cat, sub) {
   };
 
   main.innerHTML = `<div class="section-title">${titleMap[cat] || cat} · ${filtered.length} 项</div>
-    <div class="list-card">${filtered.map(item => renderListItem(item, cat)).join('')}</div>`;
+    ${filtered.length > 20 ? `<div class="view-toggle">
+      <button class="active" data-mode="grid" onclick="switchViewMode('grid', this)">网格</button>
+      <button data-mode="list" onclick="switchViewMode('list', this)">列表</button>
+    </div>` : ''}
+    ${renderListItemsGrouped(filtered, cat)}`;
+}
+
+function switchViewMode(mode, btn) {
+  const card = document.querySelector('.list-card');
+  if (!card) return;
+  card.classList.toggle('grid-mode', mode === 'grid');
+  document.querySelectorAll('.view-toggle button').forEach(b => b.classList.remove('active'));
+  if (btn) btn.classList.add('active');
+}
+
+function renderListItemsGrouped(items, cat) {
+  // 按 grade 分组（如有），其他类目不分组
+  const hasGrade = items.length > 0 && items.every(it => it.grade);
+  if (!hasGrade) {
+    const isGrid = items.length > 20;
+    return `<div class="list-card ${isGrid ? 'grid-mode' : ''}">${items.map(item => renderListItem(item, cat)).join('')}</div>`;
+  }
+  // 分组
+  const groups = {};
+  items.forEach(it => {
+    const g = it.grade || '其他';
+    if (!groups[g]) groups[g] = [];
+    groups[g].push(it);
+  });
+  const order = ['一年级','二年级','三年级','四年级','五年级','六年级','七年级','八年级','九年级','高一','高二','高三'];
+  const sortedKeys = Object.keys(groups).sort((a, b) => {
+    const ai = order.indexOf(a); const bi = order.indexOf(b);
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+  });
+  const isGrid = items.length > 20;
+  return sortedKeys.map(g => {
+    const list = groups[g];
+    return `<div class="grade-group">
+      <div class="grade-group-title">${g} <span class="grade-group-count">${list.length} 首</span></div>
+      <div class="list-card ${isGrid ? 'grid-mode' : ''}">${list.map(item => renderListItem(item, cat)).join('')}</div>
+    </div>`;
+  }).join('');
 }
 
 function filterItems(items) {
@@ -642,7 +793,8 @@ function renderListItem(item, cat) {
   const author = item.author || '';
   const difficulty = item.difficulty || '';
   let meta = '';
-  if (author) meta += author;
+  if (item.grade) meta += item.grade;
+  if (author) meta += (meta ? ' · ' : '') + author;
   if (item.era) meta += (meta ? ' · ' : '') + item.era;
   if (item.category) meta += (meta ? ' · ' : '') + item.category;
   if (item.count) meta += (meta ? ' · ' : '') + item.count + ' 位人物';
@@ -667,13 +819,37 @@ async function openDetail(file, cat) {
   try {
     const res = await fetch(CONTENT_BASE + file);
     if (!res.ok) throw new Error('404');
-    const text = await res.text();
+    let text = await res.text();
+    // 提取 link 注释
+    const linkMatch = text.match(/<!--\s*link:\s*(.*?)\s*-->/);
+    const link = linkMatch ? linkMatch[1].trim() : '';
+    text = text.replace(/\n*<!--\s*link:[^>]*-->\s*$/, '');
     const html = marked.parse(text);
     const title = extractTitle(text, file);
+    const isPoem = cat === 'poems';
+    const linkBtn = link
+      ? `<a class="online-link" href="${escapeHtml(link)}" target="_blank" rel="noopener">📖 在线阅读</a>`
+      : `<span class="online-link disabled">暂无免费链接</span>`;
     main.innerHTML = `<div class="detail-view show">
       <div class="detail-title">${escapeHtml(title)}</div>
-      <div class="detail-content">${html}</div>
+      ${linkBtn}
+      <div class="detail-content ${isPoem ? 'poem-card' : ''}">${html}</div>
     </div>`;
+    // 古诗：把原文段包成诗体排版
+    if (isPoem) {
+      const firstH2 = main.querySelector('.detail-content h2');
+      if (firstH2 && firstH2.textContent.includes('原文')) {
+        let n = firstH2.nextElementSibling;
+        const wrap = document.createElement('div');
+        wrap.className = 'poem-original';
+        while (n && n.tagName !== 'H2' && n.tagName !== 'H1') {
+          const next = n.nextElementSibling;
+          wrap.appendChild(n);
+          n = next;
+        }
+        firstH2.after(wrap);
+      }
+    }
     window.scrollTo(0, 0);
   } catch (e) {
     main.innerHTML = '<div class="empty">内容加载失败</div>';
