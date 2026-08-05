@@ -1513,23 +1513,23 @@
   "characters": {
     "hongloumeng": {
       "file": "characters/hongloumeng.md",
-      "count": 33,
-      "size": 59772
+      "count": 47,
+      "size": 90309
     },
     "xiyouji": {
       "file": "characters/xiyouji.md",
-      "count": 46,
-      "size": 57651
+      "count": 55,
+      "size": 74313
     },
     "sanguoyanyi": {
       "file": "characters/sanguoyanyi.md",
-      "count": 38,
-      "size": 67846
+      "count": 61,
+      "size": 110321
     },
     "shuihuzhuan": {
       "file": "characters/shuihuzhuan.md",
-      "count": 37,
-      "size": 63021
+      "count": 54,
+      "size": 87706
     }
   },
   "books_summary": [
@@ -1874,6 +1874,659 @@
       "size": 2577
     }
   ],
+  "modern": [
+    {
+      "name": "撒哈拉的故事-三毛",
+      "title": "撒哈拉的故事",
+      "author": "三毛",
+      "category": "散文",
+      "era": "1976年",
+      "theme": "异域生活的自由、浪漫与生命体验",
+      "difficulty": "高中",
+      "file": "modern/三毛_撒哈拉的故事.md",
+      "size": 6698
+    },
+    {
+      "name": "听听那冷雨-余光中",
+      "title": "听听那冷雨",
+      "author": "余光中",
+      "category": "散文",
+      "era": "1974年",
+      "theme": "雨中的乡愁与文化记忆",
+      "difficulty": "高中",
+      "file": "modern/余光中_听听那冷雨.md",
+      "size": 6202
+    },
+    {
+      "name": "活着-余华",
+      "title": "活着",
+      "author": "余华",
+      "category": "短篇小说（节选自长篇小说）",
+      "era": "1992年",
+      "theme": "生命的坚韧与活着的意义",
+      "difficulty": "高中",
+      "file": "modern/余华_活着.md",
+      "size": 8327
+    },
+    {
+      "name": "一地鸡毛-刘震云",
+      "title": "一地鸡毛",
+      "author": "刘震云",
+      "category": "短篇小说",
+      "era": "1991年",
+      "theme": "日常生活中琐碎烦恼的荒诞与无奈",
+      "difficulty": "成人",
+      "file": "modern/刘震云_一地鸡毛.md",
+      "size": 6147
+    },
+    {
+      "name": "命若琴弦-史铁生",
+      "title": "命若琴弦",
+      "author": "史铁生",
+      "category": "短篇小说",
+      "era": "1985年",
+      "theme": "生命的意义在于过程而非目的",
+      "difficulty": "高中",
+      "file": "modern/史铁生_命若琴弦.md",
+      "size": 6575
+    },
+    {
+      "name": "我与地坛-史铁生",
+      "title": "我与地坛",
+      "author": "史铁生",
+      "category": "散文",
+      "era": "1991年",
+      "theme": "残疾与命运、母爱与生命意义的探寻",
+      "difficulty": "高中",
+      "file": "modern/史铁生_我与地坛.md",
+      "size": 8024
+    },
+    {
+      "name": "桐花-席慕容",
+      "title": "桐花",
+      "author": "席慕容",
+      "category": "散文",
+      "era": "1990年代",
+      "theme": "生命流逝中的美与哀愁",
+      "difficulty": "高中",
+      "file": "modern/席慕容_桐花.md",
+      "size": 5564
+    },
+    {
+      "name": "天才梦-张爱玲",
+      "title": "天才梦",
+      "author": "张爱玲",
+      "category": "散文",
+      "era": "1939年",
+      "theme": "天才的孤独与生活能力的缺失",
+      "difficulty": "高中",
+      "file": "modern/张爱玲_天才梦.md",
+      "size": 5325
+    },
+    {
+      "name": "金锁记-张爱玲",
+      "title": "金锁记",
+      "author": "张爱玲",
+      "category": "短篇小说（节选自中篇小说）",
+      "era": "1943年",
+      "theme": "封建婚姻对女性的扭曲与金钱的腐蚀性",
+      "difficulty": "高中",
+      "file": "modern/张爱玲_金锁记.md",
+      "size": 5791
+    },
+    {
+      "name": "匆匆-朱自清",
+      "title": "匆匆",
+      "author": "朱自清",
+      "category": "散文",
+      "era": "1922年",
+      "theme": "时光流逝的怅惘与生命价值的追问",
+      "difficulty": "初中",
+      "file": "modern/朱自清_匆匆.md",
+      "size": 3844
+    },
+    {
+      "name": "背影-朱自清",
+      "title": "背影",
+      "author": "朱自清",
+      "category": "散文",
+      "era": "1925年",
+      "theme": "父子深情与离别之痛",
+      "difficulty": "初中",
+      "file": "modern/朱自清_背影.md",
+      "size": 6127
+    },
+    {
+      "name": "荷塘月色-朱自清",
+      "title": "荷塘月色",
+      "author": "朱自清",
+      "category": "散文",
+      "era": "1927年",
+      "theme": "月下荷塘的静谧之美与内心的淡淡哀愁",
+      "difficulty": "高中",
+      "file": "modern/朱自清_荷塘月色.md",
+      "size": 5925
+    },
+    {
+      "name": "温一壶月光下酒-林清玄",
+      "title": "温一壶月光下酒",
+      "author": "林清玄",
+      "category": "散文",
+      "era": "1980年代",
+      "theme": "生活中的禅意与审美人生",
+      "difficulty": "高中",
+      "file": "modern/林清玄_温一壶月光下酒.md",
+      "size": 6435
+    },
+    {
+      "name": "雅舍-梁实秋",
+      "title": "雅舍",
+      "author": "梁实秋",
+      "category": "散文",
+      "era": "1940年",
+      "theme": "陋室之中的生活情趣与旷达人生",
+      "difficulty": "高中",
+      "file": "modern/梁实秋_雅舍.md",
+      "size": 5994
+    },
+    {
+      "name": "受戒-汪曾祺",
+      "title": "受戒",
+      "author": "汪曾祺",
+      "category": "短篇小说",
+      "era": "1980年",
+      "theme": "纯真的爱情与自然的生命状态",
+      "difficulty": "高中",
+      "file": "modern/汪曾祺_受戒.md",
+      "size": 6935
+    },
+    {
+      "name": "昆明的雨-汪曾祺",
+      "title": "昆明的雨",
+      "author": "汪曾祺",
+      "category": "散文",
+      "era": "1984年",
+      "theme": "战时昆明的雨季记忆与生活之美",
+      "difficulty": "高中",
+      "file": "modern/汪曾祺_昆明的雨.md",
+      "size": 7609
+    },
+    {
+      "name": "湘行散记-沈从文",
+      "title": "湘行散记",
+      "author": "沈从文",
+      "category": "散文",
+      "era": "1936年",
+      "theme": "湘西水域的人情风物与生命感怀",
+      "difficulty": "高中",
+      "file": "modern/沈从文_湘行散记.md",
+      "size": 6191
+    },
+    {
+      "name": "边城-沈从文",
+      "title": "边城",
+      "author": "沈从文",
+      "category": "短篇小说（中篇）",
+      "era": "1934年",
+      "theme": "湘西边地的纯美爱情与命运无常",
+      "difficulty": "高中",
+      "file": "modern/沈从文_边城.md",
+      "size": 7534
+    },
+    {
+      "name": "长恨歌-王安忆",
+      "title": "长恨歌",
+      "author": "王安忆",
+      "category": "短篇小说（节选自长篇小说）",
+      "era": "1995年",
+      "theme": "上海女性的命运与城市的历史变迁",
+      "difficulty": "成人",
+      "file": "modern/王安忆_长恨歌.md",
+      "size": 5594
+    },
+    {
+      "name": "春酒-琦君",
+      "title": "春酒",
+      "author": "琦君",
+      "category": "散文",
+      "era": "60年代",
+      "theme": "故乡年味与母爱的温馨记忆",
+      "difficulty": "初中",
+      "file": "modern/琦君_春酒.md",
+      "size": 5628
+    },
+    {
+      "name": "骆驼祥子-老舍",
+      "title": "骆驼祥子",
+      "author": "老舍",
+      "category": "短篇小说（节选自长篇小说）",
+      "era": "1936年",
+      "theme": "旧社会底层劳动者的悲剧命运",
+      "difficulty": "高中",
+      "file": "modern/老舍_骆驼祥子.md",
+      "size": 6321
+    },
+    {
+      "name": "妻妾成群-苏童",
+      "title": "妻妾成群",
+      "author": "苏童",
+      "category": "短篇小说（节选自中篇小说）",
+      "era": "1989年",
+      "theme": "封建家庭中女性的命运与争斗",
+      "difficulty": "成人",
+      "file": "modern/苏童_妻妾成群.md",
+      "size": 5397
+    },
+    {
+      "name": "红高粱-莫言",
+      "title": "红高粱",
+      "author": "莫言",
+      "category": "短篇小说（节选自中篇小说）",
+      "era": "1986年",
+      "theme": "高密东北乡的原始生命力与抗日传奇",
+      "difficulty": "成人",
+      "file": "modern/莫言_红高粱.md",
+      "size": 5917
+    },
+    {
+      "name": "丑石-贾平凹",
+      "title": "丑石",
+      "author": "贾平凹",
+      "category": "散文",
+      "era": "1980年代",
+      "theme": "丑陋外表下的内在价值与人生哲理",
+      "difficulty": "初中",
+      "file": "modern/贾平凹_丑石.md",
+      "size": 3811
+    },
+    {
+      "name": "额尔古纳河右岸-迟子建",
+      "title": "额尔古纳河右岸",
+      "author": "迟子建",
+      "category": "短篇小说（节选自长篇小说）",
+      "era": "2005年",
+      "theme": "鄂温克族的百年命运与自然敬畏",
+      "difficulty": "成人",
+      "file": "modern/迟子建_额尔古纳河右岸.md",
+      "size": 5691
+    },
+    {
+      "name": "故都的秋-郁达夫",
+      "title": "故都的秋",
+      "author": "郁达夫",
+      "category": "散文",
+      "era": "1934年",
+      "theme": "北国秋色的清、静、悲凉之美",
+      "difficulty": "高中",
+      "file": "modern/郁达夫_故都的秋.md",
+      "size": 7317
+    },
+    {
+      "name": "棋王-阿城",
+      "title": "棋王",
+      "author": "阿城",
+      "category": "短篇小说",
+      "era": "1984年",
+      "theme": "棋道与人生的哲学思考",
+      "difficulty": "高中",
+      "file": "modern/阿城_棋王.md",
+      "size": 5701
+    },
+    {
+      "name": "从百草园到三味书屋-鲁迅",
+      "title": "从百草园到三味书屋",
+      "author": "鲁迅",
+      "category": "散文",
+      "era": "1926年",
+      "theme": "童年乐园与私塾教育的对照，对自由天性的怀念",
+      "difficulty": "初中",
+      "file": "modern/鲁迅_从百草园到三味书屋.md",
+      "size": 7857
+    },
+    {
+      "name": "孔乙己-鲁迅",
+      "title": "孔乙己",
+      "author": "鲁迅",
+      "category": "短篇小说",
+      "era": "1919年",
+      "theme": "封建科举制度对知识分子的毒害",
+      "difficulty": "初中",
+      "file": "modern/鲁迅_孔乙己.md",
+      "size": 10410
+    },
+    {
+      "name": "故乡-鲁迅",
+      "title": "故乡",
+      "author": "鲁迅",
+      "category": "短篇小说",
+      "era": "1921年",
+      "theme": "故乡的衰败与人情的隔膜",
+      "difficulty": "初中",
+      "file": "modern/鲁迅_故乡.md",
+      "size": 12878
+    },
+    {
+      "name": "祝福-鲁迅",
+      "title": "祝福",
+      "author": "鲁迅",
+      "category": "短篇小说",
+      "era": "1924年",
+      "theme": "封建礼教对妇女的摧残与社会的冷漠",
+      "difficulty": "高中",
+      "file": "modern/鲁迅_祝福.md",
+      "size": 10840
+    },
+    {
+      "name": "藤野先生-鲁迅",
+      "title": "藤野先生",
+      "author": "鲁迅",
+      "category": "散文",
+      "era": "1926年",
+      "theme": "师生情谊与民族自尊的交织",
+      "difficulty": "高中",
+      "file": "modern/鲁迅_藤野先生.md",
+      "size": 11215
+    }
+  ],
+  "shorts": [
+    {
+      "name": "一个陌生女人的来信-茨威格",
+      "title": "一个陌生女人的来信",
+      "author": "茨威格",
+      "category": "中篇小说（节选）",
+      "era": "1922年",
+      "theme": "暗恋、孤独、爱的执念",
+      "difficulty": "高中",
+      "file": "shorts/一个陌生女人的来信-茨威格.md",
+      "size": 5613
+    },
+    {
+      "name": "万卡-契诃夫",
+      "title": "万卡",
+      "author": "契诃夫",
+      "category": "短篇小说",
+      "era": "1886年",
+      "theme": "童工苦难、社会冷漠、希望与绝望",
+      "difficulty": "初中",
+      "file": "shorts/万卡-契诃夫.md",
+      "size": 7569
+    },
+    {
+      "name": "人间失格-太宰治",
+      "title": "人间失格",
+      "author": "太宰治",
+      "category": "长篇小说（节选）",
+      "era": "1948年",
+      "theme": "自我毁灭、丧失为人的资格、存在主义绝望",
+      "difficulty": "成人",
+      "file": "shorts/人间失格-太宰治.md",
+      "size": 4896
+    },
+    {
+      "name": "变形记-卡夫卡",
+      "title": "变形记",
+      "author": "卡夫卡",
+      "category": "中篇小说（节选）",
+      "era": "1915年",
+      "theme": "异化、孤独、现代人的困境",
+      "difficulty": "成人",
+      "file": "shorts/变形记-卡夫卡.md",
+      "size": 6224
+    },
+    {
+      "name": "变色龙-契诃夫",
+      "title": "变色龙",
+      "author": "契诃夫",
+      "category": "短篇小说",
+      "era": "1884年",
+      "theme": "趋炎附势、奴性人格、权力崇拜",
+      "difficulty": "初中",
+      "file": "shorts/变色龙-契诃夫.md",
+      "size": 7466
+    },
+    {
+      "name": "大教堂-卡佛",
+      "title": "大教堂",
+      "author": "卡佛",
+      "category": "短篇小说",
+      "era": "1983年",
+      "theme": "沟通、理解、人性的觉醒、平凡生活的诗意",
+      "difficulty": "高中",
+      "file": "shorts/大教堂-卡佛.md",
+      "size": 6085
+    },
+    {
+      "name": "小径分岔的花园-博尔赫斯",
+      "title": "小径分岔的花园",
+      "author": "博尔赫斯",
+      "category": "短篇小说",
+      "era": "1941年",
+      "theme": "时间、迷宫、命运、平行宇宙",
+      "difficulty": "成人",
+      "file": "shorts/小径分岔的花园-博尔赫斯.md",
+      "size": 6265
+    },
+    {
+      "name": "我是猫-夏目漱石",
+      "title": "我是猫",
+      "author": "夏目漱石",
+      "category": "长篇小说（节选）",
+      "era": "1905年",
+      "theme": "知识分子的虚伪、明治社会的讽刺、旁观者视角",
+      "difficulty": "高中",
+      "file": "shorts/我是猫-夏目漱石.md",
+      "size": 5391
+    },
+    {
+      "name": "我的叔叔于勒-莫泊桑",
+      "title": "我的叔叔于勒",
+      "author": "莫泊桑",
+      "category": "短篇小说",
+      "era": "1883年",
+      "theme": "金钱与人情、阶级冷漠、世态炎凉",
+      "difficulty": "初中",
+      "file": "shorts/我的叔叔于勒-莫泊桑.md",
+      "size": 9257
+    },
+    {
+      "name": "挪威的森林-村上春树",
+      "title": "挪威的森林",
+      "author": "村上春树",
+      "category": "长篇小说（节选）",
+      "era": "1987年",
+      "theme": "青春、孤独、爱与死亡、成长的迷失",
+      "difficulty": "高中",
+      "file": "shorts/挪威的森林-村上春树.md",
+      "size": 5128
+    },
+    {
+      "name": "最后一片叶子-欧·亨利",
+      "title": "最后一片叶子",
+      "author": "欧·亨利",
+      "category": "短篇小说",
+      "era": "1907年",
+      "theme": "希望的力量、牺牲与救赎、生命的意义",
+      "difficulty": "初中",
+      "file": "shorts/最后一片叶子-欧亨利.md",
+      "size": 6961
+    },
+    {
+      "name": "月亮与六便士-毛姆",
+      "title": "月亮与六便士",
+      "author": "毛姆",
+      "category": "长篇小说（节选）",
+      "era": "1919年",
+      "theme": "理想与现实、艺术与生活、自由与束缚",
+      "difficulty": "高中",
+      "file": "shorts/月亮与六便士-毛姆.md",
+      "size": 5772
+    },
+    {
+      "name": "热爱生命-杰克·伦敦",
+      "title": "热爱生命",
+      "author": "杰克·伦敦",
+      "category": "短篇小说",
+      "era": "1907年",
+      "theme": "生命意志、生存本能、人与自然",
+      "difficulty": "高中",
+      "file": "shorts/热爱生命-杰克伦敦.md",
+      "size": 5043
+    },
+    {
+      "name": "猎人笔记-屠格涅夫",
+      "title": "猎人笔记",
+      "author": "屠格涅夫",
+      "category": "短篇小说集（选段）",
+      "era": "1852年",
+      "theme": "农奴苦难、自然之美、人性尊严",
+      "difficulty": "高中",
+      "file": "shorts/猎人笔记-屠格涅夫.md",
+      "size": 5920
+    },
+    {
+      "name": "百万英镑-马克·吐温",
+      "title": "百万英镑",
+      "author": "马克·吐温",
+      "category": "短篇小说",
+      "era": "1893年",
+      "theme": "金钱崇拜、社会势利、资本主义荒诞",
+      "difficulty": "高中",
+      "file": "shorts/百万英镑-马克吐温.md",
+      "size": 5420
+    },
+    {
+      "name": "百年孤独-马尔克斯",
+      "title": "百年孤独",
+      "author": "马尔克斯",
+      "category": "长篇小说（节选）",
+      "era": "1967年",
+      "theme": "孤独、宿命、魔幻现实主义、家族轮回",
+      "difficulty": "成人",
+      "file": "shorts/百年孤独-马尔克斯.md",
+      "size": 6344
+    },
+    {
+      "name": "穷人-托尔斯泰",
+      "title": "穷人",
+      "author": "托尔斯泰",
+      "category": "短篇小说",
+      "era": "1853年",
+      "theme": "贫困中的善良、人道主义、爱的力量",
+      "difficulty": "初中",
+      "file": "shorts/穷人-托尔斯泰.md",
+      "size": 7789
+    },
+    {
+      "name": "竞选州长-马克·吐温",
+      "title": "竞选州长",
+      "author": "马克·吐温",
+      "category": "短篇小说",
+      "era": "1870年",
+      "theme": "政治腐败、媒体暴力、民主制度的虚伪",
+      "difficulty": "高中",
+      "file": "shorts/竞选州长-马克吐温.md",
+      "size": 5159
+    },
+    {
+      "name": "老人与海-海明威",
+      "title": "老人与海",
+      "author": "海明威",
+      "category": "中篇小说（节选）",
+      "era": "1952年",
+      "theme": "硬汉精神、人与命运、尊严与勇气",
+      "difficulty": "高中",
+      "file": "shorts/老人与海-海明威.md",
+      "size": 7107
+    },
+    {
+      "name": "胖子和瘦子-契诃夫",
+      "title": "胖子和瘦子",
+      "author": "契诃夫",
+      "category": "短篇小说",
+      "era": "1883年",
+      "theme": "等级观念、人格扭曲、权力异化",
+      "difficulty": "初中",
+      "file": "shorts/胖子和瘦子-契诃夫.md",
+      "size": 6703
+    },
+    {
+      "name": "警察与赞美诗-欧·亨利",
+      "title": "警察与赞美诗",
+      "author": "欧·亨利",
+      "category": "短篇小说",
+      "era": "1904年",
+      "theme": "社会荒诞、命运讽刺、人性的觉醒",
+      "difficulty": "高中",
+      "file": "shorts/警察与赞美诗-欧亨利.md",
+      "size": 5816
+    },
+    {
+      "name": "达洛维夫人-伍尔夫",
+      "title": "达洛维夫人",
+      "author": "伍尔夫",
+      "category": "长篇小说（节选）",
+      "era": "1925年",
+      "theme": "时间、记忆、意识流、生命的意义",
+      "difficulty": "成人",
+      "file": "shorts/达洛维夫人-伍尔夫.md",
+      "size": 5859
+    },
+    {
+      "name": "逃离-门罗",
+      "title": "逃离",
+      "author": "门罗",
+      "category": "短篇小说",
+      "era": "2004年",
+      "theme": "女性困境、自由与束缚、逃离与回归",
+      "difficulty": "成人",
+      "file": "shorts/逃离-门罗.md",
+      "size": 5329
+    },
+    {
+      "name": "野性的呼唤-杰克·伦敦",
+      "title": "野性的呼唤",
+      "author": "杰克·伦敦",
+      "category": "中篇小说（节选）",
+      "era": "1903年",
+      "theme": "野性本能、文明与原始、生存竞争",
+      "difficulty": "高中",
+      "file": "shorts/野性的呼唤-杰克伦敦.md",
+      "size": 5271
+    },
+    {
+      "name": "雪国-川端康成",
+      "title": "雪国",
+      "author": "川端康成",
+      "category": "长篇小说（节选）",
+      "era": "1937年",
+      "theme": "虚无之美、物哀、爱与徒劳",
+      "difficulty": "成人",
+      "file": "shorts/雪国-川端康成.md",
+      "size": 5551
+    },
+    {
+      "name": "项链-莫泊桑",
+      "title": "项链",
+      "author": "莫泊桑",
+      "category": "短篇小说",
+      "era": "1884年",
+      "theme": "虚荣的代价、命运无常、阶级幻象",
+      "difficulty": "初中",
+      "file": "shorts/项链-莫泊桑.md",
+      "size": 7792
+    },
+    {
+      "name": "麦琪的礼物-欧·亨利",
+      "title": "麦琪的礼物",
+      "author": "欧·亨利",
+      "category": "短篇小说",
+      "era": "1905年",
+      "theme": "爱的牺牲、物质与精神、命运的反讽",
+      "difficulty": "初中",
+      "file": "shorts/麦琪的礼物-欧亨利.md",
+      "size": 8813
+    }
+  ],
   "quiz": {
     "primary": {
       "file": "quiz/quiz-primary.json",
@@ -1894,9 +2547,11 @@
   "stats": {
     "total_books": 90,
     "total_poems": 209,
-    "total_characters": 154,
+    "total_characters": 217,
     "total_books_summary": 68,
+    "total_modern": 32,
+    "total_shorts": 27,
     "total_quiz": 130,
-    "total_files": 376
+    "total_files": 435
   }
 }
