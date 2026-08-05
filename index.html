@@ -419,7 +419,7 @@ let searchKeyword = '';
 const CATEGORIES = [
   { key: 'home', label: '首页' },
   { key: 'poems', label: '必背古诗', hasSub: true },
-  { key: 'characters', label: '四大人物', hasSub: true },
+  { key: 'characters', label: '四大名著', hasSub: true },
   { key: 'books_summary', label: '名著导读', list: true },
   { key: 'books', label: '三大书单', hasSub: true },
   { key: 'modern', label: '现当代', list: true },
@@ -556,7 +556,7 @@ function renderHome() {
   main.innerHTML = `
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-num">${s.total_poems}</div><div class="stat-label">必背古诗</div></div>
-      <div class="stat-card"><div class="stat-num">${s.total_characters}</div><div class="stat-label">四大人物</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_characters}</div><div class="stat-label">四大名著人物</div></div>
       <div class="stat-card"><div class="stat-num">${s.total_books}</div><div class="stat-label">三大书单</div></div>
       <div class="stat-card"><div class="stat-num">${s.total_books_summary}</div><div class="stat-label">名著导读</div></div>
       <div class="stat-card"><div class="stat-num">${s.total_modern}</div><div class="stat-label">现当代文学</div></div>
