@@ -551,6 +551,7 @@ const CHAR_SUB = [
 ];
 
 const BOOK_SUB = [
+  { key: 'life', label: '人生智慧 33 本' },
   { key: 'psychology', label: '心理学 30 本' },
   { key: 'economics', label: '经济学 30 本' },
   { key: 'philosophy', label: '哲学 30 本' },
@@ -667,7 +668,7 @@ function renderHome() {
     <div class="stats-grid">
       <div class="stat-card"><div class="stat-num">${s.total_poems}</div><div class="stat-label">必背古诗</div></div>
       <div class="stat-card"><div class="stat-num">${s.total_characters}</div><div class="stat-label">四大名著人物</div></div>
-      <div class="stat-card"><div class="stat-num">${s.total_books}</div><div class="stat-label">三大书单</div></div>
+      <div class="stat-card"><div class="stat-num">${s.total_books}</div><div class="stat-label">四大书单</div></div>
       <div class="stat-card"><div class="stat-num">${s.total_books_summary}</div><div class="stat-label">名著导读</div></div>
       <div class="stat-card"><div class="stat-num">${s.total_modern}</div><div class="stat-label">现当代文学</div></div>
       <div class="stat-card"><div class="stat-num">${s.total_shorts}</div><div class="stat-label">外国短篇</div></div>
@@ -731,7 +732,7 @@ function renderList(cat, sub) {
 
   const titleMap = {
     poems: '必背古诗', characters: '四大名著人物', books_summary: '名著导读',
-    books: '三大书单', modern: '现当代文学', shorts: '外国短篇'
+    books: '四大书单', life: '人生智慧', modern: '现当代文学', shorts: '外国短篇'
   };
 
   main.innerHTML = `<div class="section-title">${titleMap[cat] || cat} · ${filtered.length} 项</div>

@@ -1,5 +1,40 @@
 {
   "books": {
+    "life": [
+      {"name": "01-道德经", "file": "books/life/01-道德经.md", "size": 2560},
+      {"name": "02-论语", "file": "books/life/02-论语.md", "size": 2390},
+      {"name": "03-庄子", "file": "books/life/03-庄子.md", "size": 2835},
+      {"name": "04-孟子", "file": "books/life/04-孟子.md", "size": 2591},
+      {"name": "05-大学", "file": "books/life/05-大学.md", "size": 2364},
+      {"name": "06-中庸", "file": "books/life/06-中庸.md", "size": 2461},
+      {"name": "07-传习录", "file": "books/life/07-传习录.md", "size": 2419},
+      {"name": "08-曾国藩家书", "file": "books/life/08-曾国藩家书.md", "size": 2413},
+      {"name": "09-了凡四训", "file": "books/life/09-了凡四训.md", "size": 2322},
+      {"name": "10-菜根谭", "file": "books/life/10-菜根谭.md", "size": 2324},
+      {"name": "11-小窗幽记", "file": "books/life/11-小窗幽记.md", "size": 2192},
+      {"name": "12-围炉夜话", "file": "books/life/12-围炉夜话.md", "size": 2135},
+      {"name": "13-呻吟语", "file": "books/life/13-呻吟语.md", "size": 2285},
+      {"name": "14-幽梦影", "file": "books/life/14-幽梦影.md", "size": 2197},
+      {"name": "15-增广贤文", "file": "books/life/15-增广贤文.md", "size": 2205},
+      {"name": "16-警世贤文", "file": "books/life/16-警世贤文.md", "size": 2229},
+      {"name": "17-朱子家训", "file": "books/life/17-朱子家训.md", "size": 2102},
+      {"name": "18-颜氏家训", "file": "books/life/18-颜氏家训.md", "size": 2308},
+      {"name": "19-沉思录", "file": "books/life/19-沉思录.md", "size": 2264},
+      {"name": "20-瓦尔登湖", "file": "books/life/20-瓦尔登湖.md", "size": 2401},
+      {"name": "21-人生的智慧", "file": "books/life/21-人生的智慧.md", "size": 2265},
+      {"name": "22-活出生命的意义", "file": "books/life/22-活出生命的意义.md", "size": 2522},
+      {"name": "23-原则", "file": "books/life/23-原则.md", "size": 2069},
+      {"name": "24-第五项修炼", "file": "books/life/24-第五项修炼.md", "size": 2316},
+      {"name": "25-苏格拉底的辩护", "file": "books/life/25-苏格拉底的辩护.md", "size": 2160},
+      {"name": "26-伊索寓言", "file": "books/life/26-伊索寓言.md", "size": 2061},
+      {"name": "27-道德情操论", "file": "books/life/27-道德情操论.md", "size": 2232},
+      {"name": "28-哲学的慰藉", "file": "books/life/28-哲学的慰藉.md", "size": 2148},
+      {"name": "29-论生命之短暂", "file": "books/life/29-论生命之短暂.md", "size": 2070},
+      {"name": "30-少有人走的路", "file": "books/life/30-少有人走的路.md", "size": 2134},
+      {"name": "31-自卑与超越", "file": "books/life/31-自卑与超越.md", "size": 2023},
+      {"name": "32-被讨厌的勇气", "file": "books/life/32-被讨厌的勇气.md", "size": 2107},
+      {"name": "33-非暴力沟通", "file": "books/life/33-非暴力沟通.md", "size": 1950}
+    ],
     "psychology": [
       {
         "name": "01-梦的解析",
@@ -2976,13 +3011,13 @@
     }
   },
   "stats": {
-    "total_books": 90,
+    "total_books": 123,
     "total_poems": 246,
     "total_characters": 217,
     "total_books_summary": 68,
     "total_modern": 32,
     "total_shorts": 27,
     "total_quiz": 130,
-    "total_files": 472
+    "total_files": 505
   }
 }
