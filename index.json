@@ -1507,6 +1507,191 @@
         "name": "058-声声慢",
         "file": "poems/high/058-声声慢.md",
         "size": 3295
+      },
+      {
+        "name": "059-烛之武退秦师",
+        "file": "poems/high/059-烛之武退秦师.md",
+        "size": 4395
+      },
+      {
+        "name": "060-荆轲刺秦王",
+        "file": "poems/high/060-荆轲刺秦王.md",
+        "size": 5273
+      },
+      {
+        "name": "061-鸿门宴",
+        "file": "poems/high/061-鸿门宴.md",
+        "size": 8209
+      },
+      {
+        "name": "062-孔雀东南飞（节选）",
+        "file": "poems/high/062-孔雀东南飞（节选）.md",
+        "size": 9840
+      },
+      {
+        "name": "063-短歌行",
+        "file": "poems/high/063-短歌行.md",
+        "size": 3686
+      },
+      {
+        "name": "064-望海潮",
+        "file": "poems/high/064-望海潮.md",
+        "size": 3795
+      },
+      {
+        "name": "065-鹊桥仙",
+        "file": "poems/high/065-鹊桥仙.md",
+        "size": 3653
+      },
+      {
+        "name": "066-扬州慢",
+        "file": "poems/high/066-扬州慢.md",
+        "size": 4026
+      },
+      {
+        "name": "067-赤壁赋",
+        "file": "poems/high/067-赤壁赋.md",
+        "size": 5893
+      },
+      {
+        "name": "068-游褒禅山记",
+        "file": "poems/high/068-游褒禅山记.md",
+        "size": 5010
+      },
+      {
+        "name": "069-再别康桥",
+        "file": "poems/high/069-再别康桥.md",
+        "size": 3808
+      },
+      {
+        "name": "070-夜泊牛渚怀古",
+        "file": "poems/high/070-夜泊牛渚怀古.md",
+        "size": 2919
+      },
+      {
+        "name": "071-破阵子·为陈同甫赋壮词以寄之",
+        "file": "poems/high/071-破阵子·为陈同甫赋壮词以寄之.md",
+        "size": 3178
+      },
+      {
+        "name": "072-苏幕遮·怀旧",
+        "file": "poems/high/072-苏幕遮·怀旧.md",
+        "size": 3050
+      },
+      {
+        "name": "073-一剪梅·红藕香残玉簟秋",
+        "file": "poems/high/073-一剪梅·红藕香残玉簟秋.md",
+        "size": 3019
+      },
+      {
+        "name": "074-满江红·写怀",
+        "file": "poems/high/074-满江红·写怀.md",
+        "size": 3362
+      },
+      {
+        "name": "075-渔家傲·秋思",
+        "file": "poems/high/075-渔家傲·秋思.md",
+        "size": 3106
+      },
+      {
+        "name": "076-菩萨蛮·书江西造口壁",
+        "file": "poems/high/076-菩萨蛮·书江西造口壁.md",
+        "size": 3017
+      },
+      {
+        "name": "077-浣溪沙·一曲新词酒一杯",
+        "file": "poems/high/077-浣溪沙·一曲新词酒一杯.md",
+        "size": 3128
+      },
+      {
+        "name": "078-如梦令·常记溪亭日暮",
+        "file": "poems/high/078-如梦令·常记溪亭日暮.md",
+        "size": 2945
+      },
+      {
+        "name": "079-武陵春·春晚",
+        "file": "poems/high/079-武陵春·春晚.md",
+        "size": 3171
+      },
+      {
+        "name": "080-卜算子·咏梅",
+        "file": "poems/high/080-卜算子·咏梅.md",
+        "size": 3045
+      },
+      {
+        "name": "081-钗头凤·红酥手",
+        "file": "poems/high/081-钗头凤·红酥手.md",
+        "size": 3272
+      },
+      {
+        "name": "082-诉衷情·当年万里觅封侯",
+        "file": "poems/high/082-诉衷情·当年万里觅封侯.md",
+        "size": 3046
+      },
+      {
+        "name": "083-关山月·和宋元晦",
+        "file": "poems/high/083-关山月·和宋元晦.md",
+        "size": 3230
+      },
+      {
+        "name": "084-南乡子·登京口北固亭有怀",
+        "file": "poems/high/084-南乡子·登京口北固亭有怀.md",
+        "size": 3200
+      },
+      {
+        "name": "085-山坡羊·潼关怀古",
+        "file": "poems/high/085-山坡羊·潼关怀古.md",
+        "size": 3263
+      },
+      {
+        "name": "086-山坡羊·骊山怀古",
+        "file": "poems/high/086-山坡羊·骊山怀古.md",
+        "size": 2507
+      },
+      {
+        "name": "087-朝天子·咏喇叭",
+        "file": "poems/high/087-朝天子·咏喇叭.md",
+        "size": 2388
+      },
+      {
+        "name": "088-木兰花慢·立春",
+        "file": "poems/high/088-木兰花慢·立春.md",
+        "size": 2695
+      },
+      {
+        "name": "089-清平乐·村居",
+        "file": "poems/high/089-清平乐·村居.md",
+        "size": 2517
+      },
+      {
+        "name": "090-采桑子·重阳",
+        "file": "poems/high/090-采桑子·重阳.md",
+        "size": 2512
+      },
+      {
+        "name": "091-相见欢·林花谢了春红",
+        "file": "poems/high/091-相见欢·林花谢了春红.md",
+        "size": 2372
+      },
+      {
+        "name": "092-虞美人·听雨",
+        "file": "poems/high/092-虞美人·听雨.md",
+        "size": 2510
+      },
+      {
+        "name": "093-临江仙·滚滚长江东逝水",
+        "file": "poems/high/093-临江仙·滚滚长江东逝水.md",
+        "size": 2601
+      },
+      {
+        "name": "094-蝶恋花·伫倚危楼风细细",
+        "file": "poems/high/094-蝶恋花·伫倚危楼风细细.md",
+        "size": 2553
+      },
+      {
+        "name": "095-望江南·梳洗罢",
+        "file": "poems/high/095-望江南·梳洗罢.md",
+        "size": 2370
       }
     ]
   },
@@ -2546,12 +2731,12 @@
   },
   "stats": {
     "total_books": 90,
-    "total_poems": 209,
+    "total_poems": 246,
     "total_characters": 217,
     "total_books_summary": 68,
     "total_modern": 32,
     "total_shorts": 27,
     "total_quiz": 130,
-    "total_files": 435
+    "total_files": 472
   }
 }
