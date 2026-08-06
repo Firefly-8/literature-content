@@ -1,40 +1,5 @@
 {
   "books": {
-    "life": [
-      {"name": "01-道德经", "file": "books/life/01-道德经.md", "size": 2560},
-      {"name": "02-论语", "file": "books/life/02-论语.md", "size": 2390},
-      {"name": "03-庄子", "file": "books/life/03-庄子.md", "size": 2835},
-      {"name": "04-孟子", "file": "books/life/04-孟子.md", "size": 2591},
-      {"name": "05-大学", "file": "books/life/05-大学.md", "size": 2364},
-      {"name": "06-中庸", "file": "books/life/06-中庸.md", "size": 2461},
-      {"name": "07-传习录", "file": "books/life/07-传习录.md", "size": 2419},
-      {"name": "08-曾国藩家书", "file": "books/life/08-曾国藩家书.md", "size": 2413},
-      {"name": "09-了凡四训", "file": "books/life/09-了凡四训.md", "size": 2322},
-      {"name": "10-菜根谭", "file": "books/life/10-菜根谭.md", "size": 2324},
-      {"name": "11-小窗幽记", "file": "books/life/11-小窗幽记.md", "size": 2192},
-      {"name": "12-围炉夜话", "file": "books/life/12-围炉夜话.md", "size": 2135},
-      {"name": "13-呻吟语", "file": "books/life/13-呻吟语.md", "size": 2285},
-      {"name": "14-幽梦影", "file": "books/life/14-幽梦影.md", "size": 2197},
-      {"name": "15-增广贤文", "file": "books/life/15-增广贤文.md", "size": 2205},
-      {"name": "16-警世贤文", "file": "books/life/16-警世贤文.md", "size": 2229},
-      {"name": "17-朱子家训", "file": "books/life/17-朱子家训.md", "size": 2102},
-      {"name": "18-颜氏家训", "file": "books/life/18-颜氏家训.md", "size": 2308},
-      {"name": "19-沉思录", "file": "books/life/19-沉思录.md", "size": 2264},
-      {"name": "20-瓦尔登湖", "file": "books/life/20-瓦尔登湖.md", "size": 2401},
-      {"name": "21-人生的智慧", "file": "books/life/21-人生的智慧.md", "size": 2265},
-      {"name": "22-活出生命的意义", "file": "books/life/22-活出生命的意义.md", "size": 2522},
-      {"name": "23-原则", "file": "books/life/23-原则.md", "size": 2069},
-      {"name": "24-第五项修炼", "file": "books/life/24-第五项修炼.md", "size": 2316},
-      {"name": "25-苏格拉底的辩护", "file": "books/life/25-苏格拉底的辩护.md", "size": 2160},
-      {"name": "26-伊索寓言", "file": "books/life/26-伊索寓言.md", "size": 2061},
-      {"name": "27-道德情操论", "file": "books/life/27-道德情操论.md", "size": 2232},
-      {"name": "28-哲学的慰藉", "file": "books/life/28-哲学的慰藉.md", "size": 2148},
-      {"name": "29-论生命之短暂", "file": "books/life/29-论生命之短暂.md", "size": 2070},
-      {"name": "30-少有人走的路", "file": "books/life/30-少有人走的路.md", "size": 2134},
-      {"name": "31-自卑与超越", "file": "books/life/31-自卑与超越.md", "size": 2023},
-      {"name": "32-被讨厌的勇气", "file": "books/life/32-被讨厌的勇气.md", "size": 2107},
-      {"name": "33-非暴力沟通", "file": "books/life/33-非暴力沟通.md", "size": 1950}
-    ],
     "psychology": [
       {
         "name": "01-梦的解析",
@@ -490,1491 +455,331 @@
         "file": "books/philosophy/30-作为意志和表象的世界.md",
         "size": 12986
       }
-    ]
-  },
-  "poems": {
-    "primary": [
+    ],
+    "life": [
       {
-        "name": "静夜思",
-        "grade": "一年级",
-        "file": "poems/primary/一年级/001-静夜思.md",
-        "size": 2224
+        "name": "01-道德经",
+        "file": "books/life/01-道德经.md",
+        "size": 2560
       },
       {
-        "name": "春晓",
-        "grade": "一年级",
-        "file": "poems/primary/一年级/002-春晓.md",
-        "size": 1922
+        "name": "02-论语",
+        "file": "books/life/02-论语.md",
+        "size": 2390
       },
       {
-        "name": "咏鹅",
-        "grade": "一年级",
-        "file": "poems/primary/一年级/003-咏鹅.md",
-        "size": 2644
+        "name": "03-庄子",
+        "file": "books/life/03-庄子.md",
+        "size": 2835
       },
       {
-        "name": "悯农（其一）",
-        "grade": "一年级",
-        "file": "poems/primary/一年级/004-悯农（其一）.md",
-        "size": 2330
+        "name": "04-孟子",
+        "file": "books/life/04-孟子.md",
+        "size": 2591
       },
       {
-        "name": "悯农（其二）",
-        "grade": "一年级",
-        "file": "poems/primary/一年级/005-悯农（其二）.md",
-        "size": 2319
+        "name": "05-大学",
+        "file": "books/life/05-大学.md",
+        "size": 2364
       },
       {
-        "name": "枫桥夜泊",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/021-枫桥夜泊.md",
-        "size": 3038
+        "name": "06-中庸",
+        "file": "books/life/06-中庸.md",
+        "size": 2461
       },
       {
-        "name": "滁州西涧",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/022-滁州西涧.md",
-        "size": 1640
-      },
-      {
-        "name": "望洞庭",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/023-望洞庭.md",
-        "size": 1456
-      },
-      {
-        "name": "渔歌子",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/023-渔歌子.md",
-        "size": 1956
-      },
-      {
-        "name": "望洞庭",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/024-望洞庭.md",
-        "size": 3141
-      },
-      {
-        "name": "浪淘沙",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/024-浪淘沙.md",
-        "size": 3491
-      },
-      {
-        "name": "江南春",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/025-江南春.md",
-        "size": 1728
-      },
-      {
-        "name": "浪淘沙",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/025-浪淘沙.md",
-        "size": 2497
-      },
-      {
-        "name": "山行",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/026-山行.md",
-        "size": 3972
-      },
-      {
-        "name": "清明",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/027-清明.md",
-        "size": 3019
-      },
-      {
-        "name": "赠汪伦",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/028-赠汪伦.md",
-        "size": 3802
-      },
-      {
-        "name": "凉州词（王之涣）",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/029-凉州词（王之涣）.md",
-        "size": 2289
-      },
-      {
-        "name": "凉州词（王翰）",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/030-凉州词（王翰）.md",
-        "size": 3286
-      },
-      {
-        "name": "出塞",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/031-出塞.md",
-        "size": 2668
-      },
-      {
-        "name": "别董大",
-        "grade": "三年级",
-        "file": "poems/primary/三年级/032-别董大.md",
-        "size": 2572
-      },
-      {
-        "name": "游子吟",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/006-游子吟.md",
-        "size": 4195
-      },
-      {
-        "name": "江雪",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/007-江雪.md",
-        "size": 3280
-      },
-      {
-        "name": "寻隐者不遇",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/008-寻隐者不遇.md",
-        "size": 2663
-      },
-      {
-        "name": "登鹳雀楼",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/009-登鹳雀楼.md",
-        "size": 2947
-      },
-      {
-        "name": "相思",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/010-相思.md",
-        "size": 2263
-      },
-      {
-        "name": "鹿柴",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/011-鹿柴.md",
-        "size": 2403
-      },
-      {
-        "name": "鸟鸣涧",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/012-鸟鸣涧.md",
-        "size": 2663
-      },
-      {
-        "name": "九月九日忆山东兄弟",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/013-九月九日忆山东兄弟.md",
-        "size": 2800
-      },
-      {
-        "name": "望庐山瀑布",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/014-望庐山瀑布.md",
-        "size": 2480
-      },
-      {
-        "name": "黄鹤楼送孟浩然之广陵",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/015-黄鹤楼送孟浩然之广陵.md",
-        "size": 2327
-      },
-      {
-        "name": "早发白帝城",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/016-早发白帝城.md",
-        "size": 2124
-      },
-      {
-        "name": "望天门山",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/017-望天门山.md",
-        "size": 3201
-      },
-      {
-        "name": "绝句（两个黄鹂）",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/018-绝句（两个黄鹂）.md",
-        "size": 3321
-      },
-      {
-        "name": "春夜喜雨",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/019-春夜喜雨.md",
-        "size": 2529
-      },
-      {
-        "name": "绝句（迟日江山丽）",
-        "grade": "二年级",
-        "file": "poems/primary/二年级/020-绝句（迟日江山丽）.md",
-        "size": 2991
-      },
-      {
-        "name": "乡村四月",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/048-乡村四月.md",
-        "size": 1927
-      },
-      {
-        "name": "村居",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/049-村居.md",
-        "size": 2142
-      },
-      {
-        "name": "所见",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/050-所见.md",
-        "size": 2410
-      },
-      {
-        "name": "竹石",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/051-竹石.md",
-        "size": 2514
-      },
-      {
-        "name": "己亥杂诗",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/052-己亥杂诗.md",
-        "size": 2590
-      },
-      {
-        "name": "石灰吟",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/053-石灰吟.md",
-        "size": 2593
-      },
-      {
-        "name": "回乡偶书",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/054-回乡偶书.md",
-        "size": 2410
-      },
-      {
-        "name": "咏柳",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/055-咏柳.md",
-        "size": 2716
-      },
-      {
-        "name": "长歌行",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/056-长歌行.md",
-        "size": 2474
-      },
-      {
-        "name": "敕勒歌",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/057-敕勒歌.md",
-        "size": 171
-      },
-      {
-        "name": "风",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/058-风.md",
-        "size": 2429
-      },
-      {
-        "name": "江南",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/059-江南.md",
-        "size": 2393
-      },
-      {
-        "name": "古朗月行",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/060-古朗月行.md",
-        "size": 3876
-      },
-      {
-        "name": "明日歌",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/061-明日歌.md",
-        "size": 2662
-      },
-      {
-        "name": "苔",
-        "grade": "五年级",
-        "file": "poems/primary/五年级/062-苔.md",
-        "size": 2508
-      },
-      {
-        "name": "画",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/063-画.md",
-        "size": 2889
-      },
-      {
-        "name": "梅花",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/064-梅花.md",
-        "size": 2035
-      },
-      {
-        "name": "夜书所见",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/065-夜书所见.md",
-        "size": 2577
-      },
-      {
-        "name": "乞巧",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/066-乞巧.md",
-        "size": 2221
-      },
-      {
-        "name": "嫦娥",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/067-嫦娥.md",
-        "size": 3647
-      },
-      {
-        "name": "题临安邸",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/068-题临安邸.md",
-        "size": 1871
-      },
-      {
-        "name": "秋夕",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/069-秋夕.md",
-        "size": 2747
-      },
-      {
-        "name": "嫦娥",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/070-嫦娥.md",
-        "size": 663
-      },
-      {
-        "name": "山中送别",
-        "grade": "六年级",
-        "file": "poems/primary/六年级/071-山中送别.md",
+        "name": "07-传习录",
+        "file": "books/life/07-传习录.md",
         "size": 2419
       },
       {
-        "name": "蜂",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/033-蜂.md",
-        "size": 1480
+        "name": "08-曾国藩家书",
+        "file": "books/life/08-曾国藩家书.md",
+        "size": 2413
       },
       {
-        "name": "江上渔者",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/034-江上渔者.md",
-        "size": 1844
+        "name": "09-了凡四训",
+        "file": "books/life/09-了凡四训.md",
+        "size": 2322
       },
       {
-        "name": "元日",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/035-元日.md",
-        "size": 2881
+        "name": "10-菜根谭",
+        "file": "books/life/10-菜根谭.md",
+        "size": 2324
       },
       {
-        "name": "泊船瓜洲",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/036-泊船瓜洲.md",
-        "size": 1716
+        "name": "11-小窗幽记",
+        "file": "books/life/11-小窗幽记.md",
+        "size": 2192
       },
       {
-        "name": "书湖阴先生壁",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/037-书湖阴先生壁.md",
-        "size": 2829
+        "name": "12-围炉夜话",
+        "file": "books/life/12-围炉夜话.md",
+        "size": 2135
       },
       {
-        "name": "饮湖上初晴后雨",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/038-饮湖上初晴后雨.md",
-        "size": 2587
+        "name": "13-呻吟语",
+        "file": "books/life/13-呻吟语.md",
+        "size": 2285
       },
       {
-        "name": "惠崇春江晚景",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/039-惠崇春江晚景.md",
-        "size": 2961
+        "name": "14-幽梦影",
+        "file": "books/life/14-幽梦影.md",
+        "size": 2197
       },
       {
-        "name": "题西林壁",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/040-题西林壁.md",
-        "size": 2583
+        "name": "15-增广贤文",
+        "file": "books/life/15-增广贤文.md",
+        "size": 2205
       },
       {
-        "name": "示儿",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/041-示儿.md",
-        "size": 2733
+        "name": "16-警世贤文",
+        "file": "books/life/16-警世贤文.md",
+        "size": 2229
       },
       {
-        "name": "秋夜将晓出篱门迎凉有感",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/042-秋夜将晓出篱门迎凉有感.md",
-        "size": 2638
+        "name": "17-朱子家训",
+        "file": "books/life/17-朱子家训.md",
+        "size": 2102
       },
       {
-        "name": "四时田园杂兴（昼出耘田）",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/043-四时田园杂兴（昼出耘田）.md",
-        "size": 3572
+        "name": "18-颜氏家训",
+        "file": "books/life/18-颜氏家训.md",
+        "size": 2308
       },
       {
-        "name": "四时田园杂兴（梅子金黄）",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/044-四时田园杂兴（梅子金黄）.md",
-        "size": 2174
+        "name": "19-沉思录",
+        "file": "books/life/19-沉思录.md",
+        "size": 2264
       },
       {
-        "name": "小池",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/045-小池.md",
-        "size": 3788
+        "name": "20-瓦尔登湖",
+        "file": "books/life/20-瓦尔登湖.md",
+        "size": 2401
       },
       {
-        "name": "晓出净慈寺送林子方",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/046-晓出净慈寺送林子方.md",
-        "size": 2295
+        "name": "21-人生的智慧",
+        "file": "books/life/21-人生的智慧.md",
+        "size": 2265
       },
       {
-        "name": "春日",
-        "grade": "四年级",
-        "file": "poems/primary/四年级/047-春日.md",
-        "size": 2178
+        "name": "22-活出生命的意义",
+        "file": "books/life/22-活出生命的意义.md",
+        "size": 2522
+      },
+      {
+        "name": "23-原则",
+        "file": "books/life/23-原则.md",
+        "size": 2069
+      },
+      {
+        "name": "24-第五项修炼",
+        "file": "books/life/24-第五项修炼.md",
+        "size": 2316
+      },
+      {
+        "name": "25-苏格拉底的辩护",
+        "file": "books/life/25-苏格拉底的辩护.md",
+        "size": 2160
+      },
+      {
+        "name": "26-伊索寓言",
+        "file": "books/life/26-伊索寓言.md",
+        "size": 2061
+      },
+      {
+        "name": "27-道德情操论",
+        "file": "books/life/27-道德情操论.md",
+        "size": 2232
+      },
+      {
+        "name": "28-哲学的慰藉",
+        "file": "books/life/28-哲学的慰藉.md",
+        "size": 2148
+      },
+      {
+        "name": "29-论生命之短暂",
+        "file": "books/life/29-论生命之短暂.md",
+        "size": 2070
+      },
+      {
+        "name": "30-少有人走的路",
+        "file": "books/life/30-少有人走的路.md",
+        "size": 2134
+      },
+      {
+        "name": "31-自卑与超越",
+        "file": "books/life/31-自卑与超越.md",
+        "size": 2023
+      },
+      {
+        "name": "32-被讨厌的勇气",
+        "file": "books/life/32-被讨厌的勇气.md",
+        "size": 2107
+      },
+      {
+        "name": "33-非暴力沟通",
+        "file": "books/life/33-非暴力沟通.md",
+        "size": 1950
       }
     ],
-    "middle": [
+    "cultivation": [
       {
-        "name": "观沧海",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/001-观沧海.md",
-        "size": 2480
+        "name": "01-学会提问",
+        "file": "books/cultivation/01-学会提问.md",
+        "size": 7142
       },
       {
-        "name": "次北固山下",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/002-次北固山下.md",
-        "size": 2746
+        "name": "02-思考的技术",
+        "file": "books/cultivation/02-思考的技术.md",
+        "size": 7147
       },
       {
-        "name": "闻王昌龄左迁龙标遥有此寄",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/003-闻王昌龄左迁龙标遥有此寄.md",
-        "size": 2196
+        "name": "03-简单的逻辑学",
+        "file": "books/cultivation/03-简单的逻辑学.md",
+        "size": 8423
       },
       {
-        "name": "夜雨寄北",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/004-夜雨寄北.md",
-        "size": 2276
+        "name": "04-结构思考力",
+        "file": "books/cultivation/04-结构思考力.md",
+        "size": 7089
       },
       {
-        "name": "木兰诗",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/005-木兰诗.md",
-        "size": 366
+        "name": "05-金字塔原理",
+        "file": "books/cultivation/05-金字塔原理.md",
+        "size": 6237
       },
       {
-        "name": "登幽州台歌",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/006-登幽州台歌.md",
-        "size": 2357
+        "name": "06-写作风格的意识",
+        "file": "books/cultivation/06-写作风格的意识.md",
+        "size": 8088
       },
       {
-        "name": "望岳",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/007-望岳.md",
-        "size": 3408
+        "name": "07-文心",
+        "file": "books/cultivation/07-文心.md",
+        "size": 7073
       },
       {
-        "name": "春望",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/008-春望.md",
-        "size": 1644
+        "name": "08-关键对话",
+        "file": "books/cultivation/08-关键对话.md",
+        "size": 7296
       },
       {
-        "name": "茅屋为秋风所破歌",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/009-茅屋为秋风所破歌.md",
-        "size": 3976
+        "name": "09-沟通的艺术",
+        "file": "books/cultivation/09-沟通的艺术.md",
+        "size": 6415
       },
       {
-        "name": "白雪歌送武判官归京",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/010-白雪歌送武判官归京.md",
-        "size": 3466
+        "name": "10-掌控谈话",
+        "file": "books/cultivation/10-掌控谈话.md",
+        "size": 7218
       },
       {
-        "name": "酬乐天扬州初逢席上见赠",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/011-酬乐天扬州初逢席上见赠.md",
-        "size": 553
+        "name": "11-原子习惯",
+        "file": "books/cultivation/11-原子习惯.md",
+        "size": 8940
       },
       {
-        "name": "卖炭翁",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/012-卖炭翁.md",
-        "size": 4522
+        "name": "12-深度工作",
+        "file": "books/cultivation/12-深度工作.md",
+        "size": 8229
       },
       {
-        "name": "钱塘湖春行",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/013-钱塘湖春行.md",
-        "size": 3942
+        "name": "13-搞定",
+        "file": "books/cultivation/13-搞定.md",
+        "size": 7538
       },
       {
-        "name": "雁门太守行",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/014-雁门太守行.md",
-        "size": 3002
+        "name": "14-卓有成效的管理者",
+        "file": "books/cultivation/14-卓有成效的管理者.md",
+        "size": 10174
       },
       {
-        "name": "赤壁",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/015-赤壁.md",
-        "size": 2491
+        "name": "15-领导梯队",
+        "file": "books/cultivation/15-领导梯队.md",
+        "size": 7123
       },
       {
-        "name": "泊秦淮",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/016-泊秦淮.md",
-        "size": 2528
+        "name": "16-知行合一王阳明",
+        "file": "books/cultivation/16-知行合一王阳明.md",
+        "size": 7204
       },
       {
-        "name": "无题（相见时难）",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/017-无题（相见时难）.md",
-        "size": 2883
+        "name": "17-谈美",
+        "file": "books/cultivation/17-谈美.md",
+        "size": 7258
       },
       {
-        "name": "相见欢",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/018-相见欢.md",
-        "size": 3264
+        "name": "18-美学散步",
+        "file": "books/cultivation/18-美学散步.md",
+        "size": 8299
       },
       {
-        "name": "渔家傲·秋思",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/019-渔家傲·秋思.md",
-        "size": 2832
+        "name": "19-艺术的故事",
+        "file": "books/cultivation/19-艺术的故事.md",
+        "size": 6386
       },
       {
-        "name": "浣溪沙",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/020-浣溪沙.md",
-        "size": 2700
+        "name": "20-美的历程",
+        "file": "books/cultivation/20-美的历程.md",
+        "size": 7397
       },
       {
-        "name": "江城子·密州出猎",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/021-江城子·密州出猎.md",
-        "size": 4085
+        "name": "21-万历十五年",
+        "file": "books/cultivation/21-万历十五年.md",
+        "size": 6955
       },
       {
-        "name": "水调歌头",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/022-水调歌头.md",
-        "size": 2652
+        "name": "22-中国大历史",
+        "file": "books/cultivation/22-中国大历史.md",
+        "size": 5771
       },
       {
-        "name": "破阵子",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/023-破阵子.md",
-        "size": 2587
+        "name": "23-全球通史",
+        "file": "books/cultivation/23-全球通史.md",
+        "size": 6655
       },
       {
-        "name": "过零丁洋",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/024-过零丁洋.md",
-        "size": 3353
+        "name": "24-枪炮、病菌与钢铁",
+        "file": "books/cultivation/24-枪炮、病菌与钢铁.md",
+        "size": 7044
       },
       {
-        "name": "山坡羊·潼关怀古",
-        "grade": "七年级",
-        "file": "poems/middle/七年级/025-山坡羊·潼关怀古.md",
-        "size": 2421
+        "name": "25-如何阅读一本书",
+        "file": "books/cultivation/25-如何阅读一本书.md",
+        "size": 6653
       },
       {
-        "name": "大道之行也",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/052-大道之行也.md",
-        "size": 4590
+        "name": "26-唐诗三百首",
+        "file": "books/cultivation/26-唐诗三百首.md",
+        "size": 6784
       },
       {
-        "name": "石壕吏",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/053-石壕吏.md",
-        "size": 3698
+        "name": "27-人间词话",
+        "file": "books/cultivation/27-人间词话.md",
+        "size": 6308
       },
       {
-        "name": "题破山寺后禅院",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/054-题破山寺后禅院.md",
-        "size": 2856
+        "name": "28-博弈与社会",
+        "file": "books/cultivation/28-博弈与社会.md",
+        "size": 6223
       },
       {
-        "name": "送友人",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/055-送友人.md",
-        "size": 113
+        "name": "29-数学之美",
+        "file": "books/cultivation/29-数学之美.md",
+        "size": 7345
       },
       {
-        "name": "卜算子·黄州定慧院寓居作",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/056-卜算子·黄州定慧院寓居作.md",
-        "size": 2613
-      },
-      {
-        "name": "卜算子·咏梅",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/057-卜算子·咏梅.md",
-        "size": 2447
-      },
-      {
-        "name": "行路难",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/058-行路难.md",
-        "size": 3003
-      },
-      {
-        "name": "鱼我所欲也",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/059-鱼我所欲也.md",
-        "size": 4458
-      },
-      {
-        "name": "唐雎不辱使命",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/060-唐雎不辱使命.md",
-        "size": 4919
-      },
-      {
-        "name": "邹忌讽齐王纳谏",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/061-邹忌讽齐王纳谏.md",
-        "size": 6712
-      },
-      {
-        "name": "陈涉世家",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/062-陈涉世家.md",
-        "size": 5640
-      },
-      {
-        "name": "生于忧患死于安乐",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/063-生于忧患死于安乐.md",
-        "size": 3348
-      },
-      {
-        "name": "愚公移山",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/064-愚公移山.md",
-        "size": 876
-      },
-      {
-        "name": "周亚夫军细柳",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/065-周亚夫军细柳.md",
-        "size": 4796
-      },
-      {
-        "name": "核舟记",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/066-核舟记.md",
-        "size": 6506
-      },
-      {
-        "name": "桃花源记",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/067-桃花源记.md",
-        "size": 5669
-      },
-      {
-        "name": "小石潭记",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/068-小石潭记.md",
-        "size": 5637
-      },
-      {
-        "name": "醉翁亭记",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/069-醉翁亭记.md",
-        "size": 6491
-      },
-      {
-        "name": "岳阳楼记",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/070-岳阳楼记.md",
-        "size": 2605
-      },
-      {
-        "name": "爱莲说",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/071-爱莲说.md",
-        "size": 4132
-      },
-      {
-        "name": "记承天寺夜游",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/072-记承天寺夜游.md",
-        "size": 3361
-      },
-      {
-        "name": "三峡",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/073-三峡.md",
-        "size": 4631
-      },
-      {
-        "name": "答谢中书书",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/074-答谢中书书.md",
-        "size": 3691
-      },
-      {
-        "name": "与朱元思书",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/075-与朱元思书.md",
-        "size": 4135
-      },
-      {
-        "name": "送东阳马生序",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/076-送东阳马生序.md",
-        "size": 5607
-      },
-      {
-        "name": "曹刿论战",
-        "grade": "九年级",
-        "file": "poems/middle/九年级/077-曹刿论战.md",
-        "size": 5546
-      },
-      {
-        "name": "满江红",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/026-满江红.md",
-        "size": 2886
-      },
-      {
-        "name": "南乡子·登京口北固亭有怀",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/027-南乡子·登京口北固亭有怀.md",
-        "size": 2964
-      },
-      {
-        "name": "十五从军征",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/028-十五从军征.md",
-        "size": 1458
-      },
-      {
-        "name": "行军九日思长安故园",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/029-行军九日思长安故园.md",
-        "size": 3459
-      },
-      {
-        "name": "夜上受降城闻笛",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/030-夜上受降城闻笛.md",
-        "size": 2291
-      },
-      {
-        "name": "江南逢李龟年",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/031-江南逢李龟年.md",
-        "size": 1326
-      },
-      {
-        "name": "逢入京使",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/032-逢入京使.md",
-        "size": 3304
-      },
-      {
-        "name": "晚春",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/033-晚春.md",
-        "size": 2491
-      },
-      {
-        "name": "竹里馆",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/034-竹里馆.md",
-        "size": 3787
-      },
-      {
-        "name": "峨眉山月歌",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/035-峨眉山月歌.md",
-        "size": 2876
-      },
-      {
-        "name": "十一月四日风雨大作",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/036-十一月四日风雨大作.md",
-        "size": 2526
-      },
-      {
-        "name": "过松源晨炊漆公店",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/037-过松源晨炊漆公店.md",
-        "size": 2577
-      },
-      {
-        "name": "约客",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/038-约客.md",
-        "size": 564
-      },
-      {
-        "name": "游山西村",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/039-游山西村.md",
-        "size": 2728
-      },
-      {
-        "name": "野望",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/040-野望.md",
-        "size": 2943
-      },
-      {
-        "name": "黄鹤楼",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/041-黄鹤楼.md",
-        "size": 2256
-      },
-      {
-        "name": "使至塞上",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/042-使至塞上.md",
-        "size": 4899
-      },
-      {
-        "name": "渡荆门送别",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/043-渡荆门送别.md",
-        "size": 3754
-      },
-      {
-        "name": "饮酒",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/044-饮酒.md",
-        "size": 3267
-      },
-      {
-        "name": "渔家傲",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/045-渔家傲.md",
-        "size": 3377
-      },
-      {
-        "name": "蒹葭",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/046-蒹葭.md",
-        "size": 4022
-      },
-      {
-        "name": "子衿",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/047-子衿.md",
-        "size": 3077
-      },
-      {
-        "name": "送杜少府之任蜀州",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/048-送杜少府之任蜀州.md",
-        "size": 3258
-      },
-      {
-        "name": "望洞庭湖赠张丞相",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/049-望洞庭湖赠张丞相.md",
-        "size": 3061
-      },
-      {
-        "name": "北冥有鱼",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/050-北冥有鱼.md",
-        "size": 3887
-      },
-      {
-        "name": "虽有嘉肴",
-        "grade": "八年级",
-        "file": "poems/middle/八年级/051-虽有嘉肴.md",
-        "size": 1808
-      }
-    ],
-    "high": [
-      {
-        "name": "离骚（节选）",
-        "grade": "高一",
-        "file": "poems/high/高一/001-离骚（节选）.md",
-        "size": 4982
-      },
-      {
-        "name": "蜀道难",
-        "grade": "高一",
-        "file": "poems/high/高一/002-蜀道难.md",
-        "size": 6061
-      },
-      {
-        "name": "琵琶行",
-        "grade": "高一",
-        "file": "poems/high/高一/003-琵琶行.md",
-        "size": 615
-      },
-      {
-        "name": "锦瑟",
-        "grade": "高一",
-        "file": "poems/high/高一/004-锦瑟.md",
-        "size": 4439
-      },
-      {
-        "name": "虞美人",
-        "grade": "高一",
-        "file": "poems/high/高一/005-虞美人.md",
-        "size": 3434
-      },
-      {
-        "name": "念奴娇·赤壁怀古",
-        "grade": "高一",
-        "file": "poems/high/高一/006-念奴娇·赤壁怀古.md",
-        "size": 3473
-      },
-      {
-        "name": "永遇乐·京口北固亭怀古",
-        "grade": "高一",
-        "file": "poems/high/高一/007-永遇乐·京口北固亭怀古.md",
-        "size": 5305
-      },
-      {
-        "name": "声声慢",
-        "grade": "高一",
-        "file": "poems/high/高一/008-声声慢.md",
-        "size": 3077
-      },
-      {
-        "name": "醉花阴",
-        "grade": "高一",
-        "file": "poems/high/高一/009-醉花阴.md",
-        "size": 2826
-      },
-      {
-        "name": "水龙吟·登建康赏心亭",
-        "grade": "高一",
-        "file": "poems/high/高一/010-水龙吟·登建康赏心亭.md",
-        "size": 3325
-      },
-      {
-        "name": "摸鱼儿",
-        "grade": "高一",
-        "file": "poems/high/高一/011-摸鱼儿.md",
-        "size": 2844
-      },
-      {
-        "name": "六国论",
-        "grade": "高一",
-        "file": "poems/high/高一/012-六国论.md",
-        "size": 5502
-      },
-      {
-        "name": "阿房宫赋",
-        "grade": "高一",
-        "file": "poems/high/高一/013-阿房宫赋.md",
-        "size": 5659
-      },
-      {
-        "name": "滕王阁序",
-        "grade": "高一",
-        "file": "poems/high/高一/014-滕王阁序.md",
-        "size": 6080
-      },
-      {
-        "name": "师说",
-        "grade": "高一",
-        "file": "poems/high/高一/015-师说.md",
-        "size": 7333
-      },
-      {
-        "name": "劝学",
-        "grade": "高一",
-        "file": "poems/high/高一/016-劝学.md",
-        "size": 5985
-      },
-      {
-        "name": "逍遥游（节选）",
-        "grade": "高一",
-        "file": "poems/high/高一/017-逍遥游（节选）.md",
-        "size": 6018
-      },
-      {
-        "name": "陈情表",
-        "grade": "高一",
-        "file": "poems/high/高一/018-陈情表.md",
-        "size": 4473
-      },
-      {
-        "name": "归去来兮辞",
-        "grade": "高一",
-        "file": "poems/high/高一/019-归去来兮辞.md",
-        "size": 6777
-      },
-      {
-        "name": "兰亭集序",
-        "grade": "高一",
-        "file": "poems/high/高一/020-兰亭集序.md",
-        "size": 3993
-      },
-      {
-        "name": "春江花月夜",
-        "grade": "高一",
-        "file": "poems/high/高一/021-春江花月夜.md",
-        "size": 535
-      },
-      {
-        "name": "将进酒",
-        "grade": "高一",
-        "file": "poems/high/高一/022-将进酒.md",
-        "size": 382
-      },
-      {
-        "name": "梦游天姥吟留别",
-        "grade": "高一",
-        "file": "poems/high/高一/023-梦游天姥吟留别.md",
-        "size": 5279
-      },
-      {
-        "name": "蜀相",
-        "grade": "高一",
-        "file": "poems/high/高一/024-蜀相.md",
-        "size": 4172
-      },
-      {
-        "name": "登高",
-        "grade": "高一",
-        "file": "poems/high/高一/025-登高.md",
-        "size": 3271
-      },
-      {
-        "name": "登岳阳楼",
-        "grade": "高一",
-        "file": "poems/high/高一/026-登岳阳楼.md",
-        "size": 2496
-      },
-      {
-        "name": "雨霖铃",
-        "grade": "高一",
-        "file": "poems/high/高一/027-雨霖铃.md",
-        "size": 4644
-      },
-      {
-        "name": "桂枝香·金陵怀古",
-        "grade": "高一",
-        "file": "poems/high/高一/028-桂枝香·金陵怀古.md",
-        "size": 4736
-      },
-      {
-        "name": "江城子·乙卯正月二十日夜记梦",
-        "grade": "高一",
-        "file": "poems/high/高一/029-江城子·乙卯正月二十日夜记梦.md",
-        "size": 3579
-      },
-      {
-        "name": "念奴娇·过临江",
-        "grade": "高一",
-        "file": "poems/high/高一/030-念奴娇·过临江.md",
-        "size": 3042
-      },
-      {
-        "name": "短歌行",
-        "grade": "高三",
-        "file": "poems/high/高三/063-短歌行.md",
-        "size": 3686
-      },
-      {
-        "name": "望海潮",
-        "grade": "高三",
-        "file": "poems/high/高三/064-望海潮.md",
-        "size": 3795
-      },
-      {
-        "name": "鹊桥仙",
-        "grade": "高三",
-        "file": "poems/high/高三/065-鹊桥仙.md",
-        "size": 3653
-      },
-      {
-        "name": "扬州慢",
-        "grade": "高三",
-        "file": "poems/high/高三/066-扬州慢.md",
-        "size": 4026
-      },
-      {
-        "name": "赤壁赋",
-        "grade": "高三",
-        "file": "poems/high/高三/067-赤壁赋.md",
-        "size": 5893
-      },
-      {
-        "name": "游褒禅山记",
-        "grade": "高三",
-        "file": "poems/high/高三/068-游褒禅山记.md",
-        "size": 5010
-      },
-      {
-        "name": "再别康桥",
-        "grade": "高三",
-        "file": "poems/high/高三/069-再别康桥.md",
-        "size": 3808
-      },
-      {
-        "name": "夜泊牛渚怀古",
-        "grade": "高三",
-        "file": "poems/high/高三/070-夜泊牛渚怀古.md",
-        "size": 2919
-      },
-      {
-        "name": "破阵子·为陈同甫赋壮词以寄之",
-        "grade": "高三",
-        "file": "poems/high/高三/071-破阵子·为陈同甫赋壮词以寄之.md",
-        "size": 3178
-      },
-      {
-        "name": "苏幕遮·怀旧",
-        "grade": "高三",
-        "file": "poems/high/高三/072-苏幕遮·怀旧.md",
-        "size": 3050
-      },
-      {
-        "name": "一剪梅·红藕香残玉簟秋",
-        "grade": "高三",
-        "file": "poems/high/高三/073-一剪梅·红藕香残玉簟秋.md",
-        "size": 3019
-      },
-      {
-        "name": "满江红·写怀",
-        "grade": "高三",
-        "file": "poems/high/高三/074-满江红·写怀.md",
-        "size": 3362
-      },
-      {
-        "name": "渔家傲·秋思",
-        "grade": "高三",
-        "file": "poems/high/高三/075-渔家傲·秋思.md",
-        "size": 3106
-      },
-      {
-        "name": "菩萨蛮·书江西造口壁",
-        "grade": "高三",
-        "file": "poems/high/高三/076-菩萨蛮·书江西造口壁.md",
-        "size": 3017
-      },
-      {
-        "name": "浣溪沙·一曲新词酒一杯",
-        "grade": "高三",
-        "file": "poems/high/高三/077-浣溪沙·一曲新词酒一杯.md",
-        "size": 3128
-      },
-      {
-        "name": "如梦令·常记溪亭日暮",
-        "grade": "高三",
-        "file": "poems/high/高三/078-如梦令·常记溪亭日暮.md",
-        "size": 2945
-      },
-      {
-        "name": "武陵春·春晚",
-        "grade": "高三",
-        "file": "poems/high/高三/079-武陵春·春晚.md",
-        "size": 3171
-      },
-      {
-        "name": "卜算子·咏梅",
-        "grade": "高三",
-        "file": "poems/high/高三/080-卜算子·咏梅.md",
-        "size": 3045
-      },
-      {
-        "name": "钗头凤·红酥手",
-        "grade": "高三",
-        "file": "poems/high/高三/081-钗头凤·红酥手.md",
-        "size": 3272
-      },
-      {
-        "name": "诉衷情·当年万里觅封侯",
-        "grade": "高三",
-        "file": "poems/high/高三/082-诉衷情·当年万里觅封侯.md",
-        "size": 3046
-      },
-      {
-        "name": "关山月·和宋元晦",
-        "grade": "高三",
-        "file": "poems/high/高三/083-关山月·和宋元晦.md",
-        "size": 3230
-      },
-      {
-        "name": "南乡子·登京口北固亭有怀",
-        "grade": "高三",
-        "file": "poems/high/高三/084-南乡子·登京口北固亭有怀.md",
-        "size": 3200
-      },
-      {
-        "name": "山坡羊·潼关怀古",
-        "grade": "高三",
-        "file": "poems/high/高三/085-山坡羊·潼关怀古.md",
-        "size": 3263
-      },
-      {
-        "name": "山坡羊·骊山怀古",
-        "grade": "高三",
-        "file": "poems/high/高三/086-山坡羊·骊山怀古.md",
-        "size": 2507
-      },
-      {
-        "name": "朝天子·咏喇叭",
-        "grade": "高三",
-        "file": "poems/high/高三/087-朝天子·咏喇叭.md",
-        "size": 2388
-      },
-      {
-        "name": "木兰花慢·立春",
-        "grade": "高三",
-        "file": "poems/high/高三/088-木兰花慢·立春.md",
-        "size": 2695
-      },
-      {
-        "name": "清平乐·村居",
-        "grade": "高三",
-        "file": "poems/high/高三/089-清平乐·村居.md",
-        "size": 2517
-      },
-      {
-        "name": "采桑子·重阳",
-        "grade": "高三",
-        "file": "poems/high/高三/090-采桑子·重阳.md",
-        "size": 2512
-      },
-      {
-        "name": "相见欢·林花谢了春红",
-        "grade": "高三",
-        "file": "poems/high/高三/091-相见欢·林花谢了春红.md",
-        "size": 2372
-      },
-      {
-        "name": "虞美人·听雨",
-        "grade": "高三",
-        "file": "poems/high/高三/092-虞美人·听雨.md",
-        "size": 2510
-      },
-      {
-        "name": "临江仙·滚滚长江东逝水",
-        "grade": "高三",
-        "file": "poems/high/高三/093-临江仙·滚滚长江东逝水.md",
-        "size": 2601
-      },
-      {
-        "name": "蝶恋花·伫倚危楼风细细",
-        "grade": "高三",
-        "file": "poems/high/高三/094-蝶恋花·伫倚危楼风细细.md",
-        "size": 2553
-      },
-      {
-        "name": "望江南·梳洗罢",
-        "grade": "高三",
-        "file": "poems/high/高三/095-望江南·梳洗罢.md",
-        "size": 2370
-      },
-      {
-        "name": "定风波",
-        "grade": "高二",
-        "file": "poems/high/高二/031-定风波.md",
-        "size": 2226
-      },
-      {
-        "name": "临江仙·夜登小阁忆洛中旧游",
-        "grade": "高二",
-        "file": "poems/high/高二/032-临江仙·夜登小阁忆洛中旧游.md",
-        "size": 3727
-      },
-      {
-        "name": "青玉案·元夕",
-        "grade": "高二",
-        "file": "poems/high/高二/033-青玉案·元夕.md",
-        "size": 3420
-      },
-      {
-        "name": "沁园春·长沙",
-        "grade": "高二",
-        "file": "poems/high/高二/034-沁园春·长沙.md",
-        "size": 4017
-      },
-      {
-        "name": "雨巷",
-        "grade": "高二",
-        "file": "poems/high/高二/035-雨巷.md",
-        "size": 4619
-      },
-      {
-        "name": "白马篇",
-        "grade": "高二",
-        "file": "poems/high/高二/036-白马篇.md",
-        "size": 4469
-      },
-      {
-        "name": "咏怀",
-        "grade": "高二",
-        "file": "poems/high/高二/037-咏怀.md",
-        "size": 2526
-      },
-      {
-        "name": "咏史",
-        "grade": "高二",
-        "file": "poems/high/高二/038-咏史.md",
-        "size": 4021
-      },
-      {
-        "name": "归园田居",
-        "grade": "高二",
-        "file": "poems/high/高二/039-归园田居.md",
-        "size": 3813
-      },
-      {
-        "name": "拟行路难",
-        "grade": "高二",
-        "file": "poems/high/高二/040-拟行路难.md",
-        "size": 3159
-      },
-      {
-        "name": "夜泊牛渚怀中",
-        "grade": "高二",
-        "file": "poems/high/高二/041-夜泊牛渚怀中.md",
-        "size": 1411
-      },
-      {
-        "name": "春江花月夜",
-        "grade": "高二",
-        "file": "poems/high/高二/042-春江花月夜.md",
-        "size": 4298
-      },
-      {
-        "name": "山居秋暝",
-        "grade": "高二",
-        "file": "poems/high/高二/043-山居秋暝.md",
-        "size": 2902
-      },
-      {
-        "name": "燕歌行",
-        "grade": "高二",
-        "file": "poems/high/高二/044-燕歌行.md",
-        "size": 5480
-      },
-      {
-        "name": "走马川行奉送出师西征",
-        "grade": "高二",
-        "file": "poems/high/高二/045-走马川行奉送出师西征.md",
-        "size": 3381
-      },
-      {
-        "name": "蜀道难",
-        "grade": "高二",
-        "file": "poems/high/高二/046-蜀道难.md",
-        "size": 6102
-      },
-      {
-        "name": "长恨歌",
-        "grade": "高二",
-        "file": "poems/high/高二/047-长恨歌.md",
-        "size": 5798
-      },
-      {
-        "name": "卖炭翁",
-        "grade": "高二",
-        "file": "poems/high/高二/048-卖炭翁.md",
-        "size": 3997
-      },
-      {
-        "name": "观刈麦",
-        "grade": "高二",
-        "file": "poems/high/高二/049-观刈麦.md",
-        "size": 4562
-      },
-      {
-        "name": "雁门太守行",
-        "grade": "高二",
-        "file": "poems/high/高二/050-雁门太守行.md",
-        "size": 2634
-      },
-      {
-        "name": "赤壁",
-        "grade": "高二",
-        "file": "poems/high/高二/051-赤壁.md",
-        "size": 1969
-      },
-      {
-        "name": "泊秦淮",
-        "grade": "高二",
-        "file": "poems/high/高二/052-泊秦淮.md",
-        "size": 2615
-      },
-      {
-        "name": "夜雨寄北",
-        "grade": "高二",
-        "file": "poems/high/高二/053-夜雨寄北.md",
-        "size": 2206
-      },
-      {
-        "name": "无题",
-        "grade": "高二",
-        "file": "poems/high/高二/054-无题.md",
-        "size": 2914
-      },
-      {
-        "name": "虞美人",
-        "grade": "高二",
-        "file": "poems/high/高二/055-虞美人.md",
-        "size": 2681
-      },
-      {
-        "name": "桂枝香",
-        "grade": "高二",
-        "file": "poems/high/高二/056-桂枝香.md",
-        "size": 3079
-      },
-      {
-        "name": "念奴娇·赤壁怀古",
-        "grade": "高二",
-        "file": "poems/high/高二/057-念奴娇·赤壁怀古.md",
-        "size": 2852
-      },
-      {
-        "name": "声声慢",
-        "grade": "高二",
-        "file": "poems/high/高二/058-声声慢.md",
-        "size": 3295
-      },
-      {
-        "name": "烛之武退秦师",
-        "grade": "高二",
-        "file": "poems/high/高二/059-烛之武退秦师.md",
-        "size": 4395
-      },
-      {
-        "name": "荆轲刺秦王",
-        "grade": "高二",
-        "file": "poems/high/高二/060-荆轲刺秦王.md",
-        "size": 5273
-      },
-      {
-        "name": "鸿门宴",
-        "grade": "高二",
-        "file": "poems/high/高二/061-鸿门宴.md",
-        "size": 8209
-      },
-      {
-        "name": "孔雀东南飞（节选）",
-        "grade": "高二",
-        "file": "poems/high/高二/062-孔雀东南飞（节选）.md",
-        "size": 9840
+        "name": "30-奇特的一生",
+        "file": "books/cultivation/30-奇特的一生.md",
+        "size": 5331
       }
     ]
+  },
+  "poems": {
+    "primary": [],
+    "middle": [],
+    "high": []
   },
   "characters": {
     "hongloumeng": {
@@ -3011,13 +1816,13 @@
     }
   },
   "stats": {
-    "total_books": 123,
-    "total_poems": 246,
+    "total_books": 153,
+    "total_poems": 0,
     "total_characters": 217,
     "total_books_summary": 68,
     "total_modern": 32,
     "total_shorts": 27,
     "total_quiz": 130,
-    "total_files": 505
+    "total_files": 289
   }
 }

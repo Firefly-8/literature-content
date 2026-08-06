@@ -48,7 +48,7 @@ def classify_modern(path):
     return "散文" if "散文" in path else "短篇小说"
 
 index = {
-    "books": {"psychology": [], "economics": [], "philosophy": []},
+    "books": {"psychology": [], "economics": [], "philosophy": [], "life": [], "cultivation": []},
     "poems": {"primary": [], "middle": [], "high": []},
     "characters": {},
     "books_summary": [],
@@ -58,7 +58,7 @@ index = {
 }
 
 # Books
-for cat in ["psychology", "economics", "philosophy"]:
+for cat in ["psychology", "economics", "philosophy", "life", "cultivation"]:
     d = os.path.join(CONTENT_DIR, "books", cat)
     if os.path.isdir(d):
         for f in sorted(glob.glob(os.path.join(d, "*.md"))):
